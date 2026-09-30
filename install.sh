@@ -6,7 +6,7 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DIR"
 
 echo "=========================================================="
-echo "🛠️ Menyiapkan Digital Works 3.0 (Arch Modded Edition)..."
+echo "Menyiapkan Digital Works 3.0 (Arch Modded Edition)..."
 echo "=========================================================="
 
 # Berikan izin eksekusi
@@ -14,16 +14,16 @@ chmod +x digitalworks dw_undo_engine.py run_linux.sh 2>/dev/null || true
 
 # Periksa Wine
 if command -v wine &>/dev/null; then
-    echo "✅ Wine terdeteksi: $(wine --version)"
+    echo "[OK] Wine terdeteksi: $(wine --version)"
 else
-    echo "⚠️ Wine belum terpasang. Pasang dengan: sudo pacman -S wine (Arch) atau sudo apt install wine (Debian/Ubuntu)"
+    echo "[PERINGATAN] Wine belum terpasang. Pasang dengan: sudo pacman -S wine (Arch) atau sudo apt install wine (Debian/Ubuntu)"
 fi
 
 # Periksa Python3
 if command -v python3 &>/dev/null; then
-    echo "✅ Python 3 terdeteksi: $(python3 --version)"
+    echo "[OK] Python 3 terdeteksi: $(python3 --version)"
 else
-    echo "⚠️ Python3 belum terpasang."
+    echo "[PERINGATAN] Python3 belum terpasang."
 fi
 
 # Opsi integrasi menu desktop
@@ -44,5 +44,5 @@ StartupNotify=true
 Path=$DIR
 DESKTOP_EOF
 
-echo "✅ Desktop Entry telah ditambahkan ke menu aplikasi sistem Anda!"
-echo "🚀 Selesai! Anda dapat langsung menjalankan dengan: ./digitalworks"
+echo "[OK] Desktop Entry telah ditambahkan ke menu aplikasi sistem Anda!"
+echo "Selesai! Anda dapat langsung menjalankan dengan: ./digitalworks"

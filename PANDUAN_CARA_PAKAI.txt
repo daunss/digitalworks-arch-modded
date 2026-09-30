@@ -1,35 +1,35 @@
 ================================================================================
-🛠️ DIGITAL WORKS 3.0 - MODDED EDITION (SISTEM DIGITAL)
+DIGITAL WORKS 3.0 - MODDED EDITION (SISTEM DIGITAL)
 ================================================================================
 Aplikasi simulator gerbang logika Digital Works yang telah dimodifikasi secara 
 langsung (in-codebase binary & UI patching) agar lebih cepat, efisien, dan 
 nyaman digunakan untuk kegiatan praktikum Sistem Digital.
 
 --------------------------------------------------------------------------------
-✨ FITUR UTAMA & KEUNGGULAN MOD
+FITUR UTAMA & KEUNGGULAN MOD
 --------------------------------------------------------------------------------
-1. ⚡ INSTANT DELETE (Bypass Peringatan Hapus)
+1. INSTANT DELETE (Bypass Peringatan Hapus)
    - Tekan tombol "Delete" di keyboard untuk langsung menghapus komponen/kabel.
    - Tidak ada lagi pop-up dialog "Are you sure you want to delete this object?" 
      yang memperlambat kerja.
 
-2. 🔌 SHORTCUT WIRING TOOL CEPAT (Tombol "W")
+2. SHORTCUT WIRING TOOL CEPAT (Tombol "W")
    - Cukup tekan huruf "W" di keyboard untuk langsung beralih ke mode penarikan 
      kabel (Wiring Tool). Kursor otomatis berubah menjadi alat sambung.
    - Tekan "W" sekali lagi untuk kembali ke kursor panah pemilih biasa.
 
-3. 🌙 CAELESTIA MATCHA DARK MODE (Anti-Silau)
+3. CAELESTIA MATCHA DARK MODE (Anti-Silau)
    - Tekan "Ctrl + D" atau buka menu "View -> Dark" untuk mengaktifkan tema 
      gelap elegan yang ramah di mata saat praktikum malam hari.
 
-4. 📊 MENU MODS TERSEMAT LANGSUNG DI HEADER APLIKASI
+4. MENU MODS TERSEMAT LANGSUNG DI HEADER APLIKASI
    - Menu "Mods" tersedia langsung di bar navigasi atas:
      * Auto Truth Table  : Pengecekan tabel kebenaran otomatis
      * Batch Capture     : Screenshot otomatis semua kombinasi input
      * Boolean Equation  : Pembuat persamaan aljabar logika
      * Undo / Redo       : Pembatalan aksi kanvas
 
-5. 📦 PUSTAKA KOMPONEN LENGKAP (IC SERI 74xx & TANENBAUM)
+5. PUSTAKA KOMPONEN LENGKAP (IC SERI 74xx & TANENBAUM)
    - Tersedia ratusan IC siap pakai di folder "Parts Centre":
      * Gerbang dasar (7400, 7402, 7404, 7408, 7432, 7486, dsb.)
      * Adder / Subtractor (7483, 74283)
@@ -39,7 +39,7 @@ nyaman digunakan untuk kegiatan praktikum Sistem Digital.
      folder "Parts Centre".
 
 --------------------------------------------------------------------------------
-🚀 CARA MENJALANKAN
+CARA MENJALANKAN
 --------------------------------------------------------------------------------
 [ PENGGUNA WINDOWS (10 / 11) ]
 1. Ekstrak file ZIP ini ke direktori yang diinginkan (misal di Desktop/Documents).
@@ -54,7 +54,7 @@ nyaman digunakan untuk kegiatan praktikum Sistem Digital.
       ./run_linux.sh
 
 --------------------------------------------------------------------------------
-⌨️ DAFTAR PINTASAN KEYBOARD (SHORTCUTS)
+DAFTAR PINTASAN KEYBOARD (SHORTCUTS)
 --------------------------------------------------------------------------------
 • W / Ctrl + W : Aktifkan / Nonaktifkan Wiring Tool (Mode Tarik Kabel)
 • Delete       : Hapus komponen / kawat terpilih secara instan
@@ -67,5 +67,5 @@ nyaman digunakan untuk kegiatan praktikum Sistem Digital.
 • Spacebar     : Kirim pulsa Clock Manual (sangat berguna untuk Flip-Flop)
 
 ================================================================================
-Selamat Praktikum & Sukses Selalu! 🚀
+Selamat Praktikum & Sukses Selalu!
 ================================================================================

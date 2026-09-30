@@ -1,23 +1,23 @@
-# 🛠️ Digital Works Modding & Reverse Engineering Project (Arch Linux)
+#  Digital Works Modding & Reverse Engineering Project (Arch Linux)
 
 Proyek reverse engineering biner, modernisasi arsitektur, dan modding langsung (*direct in-codebase binary & UI patching*) untuk **Digital Works** (aplikasi simulator gerbang logika Sistem Digital), disiapkan khusus untuk lingkungan **Arch Linux** dan kebutuhan praktikum **Sistem Digital (Informatika UNS)**.
 
 ---
 
-## 📌 Latar Belakang & Analisis Masalah
+## Latar Belakang & Analisis Masalah
 
 Digital Works dirilis pada era Windows 95/98 (Borland Delphi 5, 1999). Meskipun fungsional dan menjadi standar praktikum, software ini memiliki kelemahan kritis yang menghabiskan waktu mahasiswa:
-- ❌ **Tidak ada fitur Undo / Redo (`Ctrl+Z`)**: Jika salah menghapus kabel atau gerbang logika, rangkaian langsung hilang dan harus dirakit ulang dari nol.
-- ❌ **Konfirmasi Hapus Memperlambat Kerja**: Selalu memunculkan dialog pop-up konfirmasi *"Are you sure you want to delete this object?"* setiap kali tombol Delete ditekan.
-- ❌ **Pengujian Tabel Kebenaran Manual**: Mahasiswa harus mengklik saklar input satu per satu ($2^n$ kombinasi) menggunakan mouse dan mencatat hasilnya secara manual ke dokumen laporan, rawan salah data.
-- ❌ **Screenshot Laporan Makan Waktu**: Mahasiswa harus mengambil screenshot manual untuk setiap kondisi input (00, 01, 10, 11) pada setiap tabel praktikum (puluhan kombinasi).
-- ❌ **Tampilan Kuno & Silau (No Dark Mode)**: Canvas putih terang GDI 90-an yang menyilaukan mata saat praktikum malam hari.
-- ❌ **Susunan Rangkaian Berantakan**: Tidak adanya sistem grid modular yang fleksibel untuk menata letak gerbang dan komponen, serta ketiadaan sistem koordinat presisi jika ingin diintegrasikan dengan AI agent.
-- ❌ **Perakitan Berulang yang Membosankan**: Menempatkan gerbang satu per satu untuk rangkaian standar praktikum (misalnya menguji 7 gerbang dasar sekaligus atau Half/Full Adder) memakan waktu lama.
+- **Tidak ada fitur Undo / Redo (`Ctrl+Z`)**: Jika salah menghapus kabel atau gerbang logika, rangkaian langsung hilang dan harus dirakit ulang dari nol.
+- **Konfirmasi Hapus Memperlambat Kerja**: Selalu memunculkan dialog pop-up konfirmasi *"Are you sure you want to delete this object?"* setiap kali tombol Delete ditekan.
+- **Pengujian Tabel Kebenaran Manual**: Mahasiswa harus mengklik saklar input satu per satu ($2^n$ kombinasi) menggunakan mouse dan mencatat hasilnya secara manual ke dokumen laporan, rawan salah data.
+- **Screenshot Laporan Makan Waktu**: Mahasiswa harus mengambil screenshot manual untuk setiap kondisi input (00, 01, 10, 11) pada setiap tabel praktikum (puluhan kombinasi).
+- **Tampilan Kuno & Silau (No Dark Mode)**: Canvas putih terang GDI 90-an yang menyilaukan mata saat praktikum malam hari.
+- **Susunan Rangkaian Berantakan**: Tidak adanya sistem grid modular yang fleksibel untuk menata letak gerbang dan komponen, serta ketiadaan sistem koordinat presisi jika ingin diintegrasikan dengan AI agent.
+- **Perakitan Berulang yang Membosankan**: Menempatkan gerbang satu per satu untuk rangkaian standar praktikum (misalnya menguji 7 gerbang dasar sekaligus atau Half/Full Adder) memakan waktu lama.
 
 ---
 
-## 🎯 Paradigma Modding: Direct In-Codebase (Bukan Injeksi / Hook Eksternal)
+## Paradigma Modding: Direct In-Codebase (Bukan Injeksi / Hook Eksternal)
 
 Sesuai prinsip ketat proyek:
 1. **Modding Langsung pada Binary PE32**: Menambahkan section biner `.mod` (8192 bytes) langsung ke dalam [`DigitalWorks.exe`](file:///home/daun/aplikasi-prak/digitalworks/DigitalWorks.exe), memodifikasi Virtual Method Table (VMT), instruksi mesin x86, dan resource VCL DFM (`RT_RCDATA`).
@@ -27,24 +27,24 @@ Sesuai prinsip ketat proyek:
 
 ---
 
-## 🚀 Fitur Unggulan Praktikum (Lengkap & Teruji)
+## Fitur Unggulan Praktikum (Lengkap & Teruji)
 
 | No | Fitur | Tingkat Kepentingan Praktikum | Status Implementasi | Akses In-UI / Shortcut |
 |:---:|---|:---:|:---:|:---:|
-| **1** | **AI Circuit Agent (Gemini 3.5 Flash Lite)** | 🤖 **Revolusioner** (Perakit Multi-Sirkuit) | ✅ **100% Selesai & Teruji** | Menu: `Help -> &AI Assistant` / **`Ctrl+I`** |
-| **2** | **Penyempurnaan Real Boolean Solver (Tabel Nyata)** | 🔴 **Sangat Kritis** (Cegah Salah Data) | ✅ **100% Selesai & Akurat** | Menu: `Mods -> Auto Truth Table` |
-| **3** | **Multi-Format Export (Word TSV, Markdown, LaTeX)** | 🟡 **Tinggi** (Paste Langsung ke Word) | ✅ **100% Selesai** | Otomatis ke Clipboard & TSV / MD / TeX |
-| **4** | **Batch State Screenshotter untuk Laporan** | 🟢 **Sangat Tinggi** (Hemat Waktu 80%) | ✅ **100% Selesai** | Menu: `Mods -> Batch Capture` |
-| **5** | **Boolean Algebraic Equation ($Y = f(A,B)$)** | 🔵 **Menengah** (Rumus Lengkap) | ✅ **100% Selesai** | Menu: `Mods -> Boolean Equation` |
-| **6** | **Modular Layout Grid ala Microsoft Word & AI Anchor API** | 🟣 **Tinggi** (Tata Letak & Basis AI) | ✅ **100% Selesai** | Menu: `View -> Layout Grid` (`Ctrl+G`) |
-| **7** | **Integrasi Caelestia Desktop Launcher & Hyprland** | 🪟 **Sistem OS** (Tiling & Auto-Layout) | ✅ **100% Selesai** | Menu Aplikasi Caelestia / Rofi / Desktop |
-| **8** | **Native Undo / Redo Engine** | 🔴 **Sangat Kritis** (Safety Net) | ✅ **100% Selesai** | Menu: `Mods -> Undo` (`Ctrl+Z` / `Ctrl+Y`) |
-| **9** | **Bypass Konfirmasi Delete (Instant Erase)** | 🟢 **Tinggi** (Alur Kerja Cepat) | ✅ **100% Selesai** | Tombol `Delete` Keyboard / Context Menu |
-| **10** | **Caelestia Matcha Dark Mode (Tema Gelap Elegan)** | ☕ **Sangat Nyaman** (Anti-Silau) | ✅ **100% Selesai** | Menu: `View -> Dark` (`Ctrl+D`) |
+| **1** | **AI Circuit Agent (Gemini 3.5 Flash Lite)** | **Revolusioner** (Perakit Multi-Sirkuit) | **100% Selesai & Teruji** | Menu: `Help -> &AI Assistant` / **`Ctrl+I`** |
+| **2** | **Penyempurnaan Real Boolean Solver (Tabel Nyata)** | **Sangat Kritis** (Cegah Salah Data) | **100% Selesai & Akurat** | Menu: `Mods -> Auto Truth Table` |
+| **3** | **Multi-Format Export (Word TSV, Markdown, LaTeX)** | **Tinggi** (Paste Langsung ke Word) | **100% Selesai** | Otomatis ke Clipboard & TSV / MD / TeX |
+| **4** | **Batch State Screenshotter untuk Laporan** | **Sangat Tinggi** (Hemat Waktu 80%) | **100% Selesai** | Menu: `Mods -> Batch Capture` |
+| **5** | **Boolean Algebraic Equation ($Y = f(A,B)$)** | **Menengah** (Rumus Lengkap) | **100% Selesai** | Menu: `Mods -> Boolean Equation` |
+| **6** | **Modular Layout Grid ala Microsoft Word & AI Anchor API** | **Tinggi** (Tata Letak & Basis AI) | **100% Selesai** | Menu: `View -> Layout Grid` (`Ctrl+G`) |
+| **7** | **Integrasi Caelestia Desktop Launcher & Hyprland** | **Sistem OS** (Tiling & Auto-Layout) | **100% Selesai** | Menu Aplikasi Caelestia / Rofi / Desktop |
+| **8** | **Native Undo / Redo Engine** | **Sangat Kritis** (Safety Net) | **100% Selesai** | Menu: `Mods -> Undo` (`Ctrl+Z` / `Ctrl+Y`) |
+| **9** | **Bypass Konfirmasi Delete (Instant Erase)** | **Tinggi** (Alur Kerja Cepat) | **100% Selesai** | Tombol `Delete` Keyboard / Context Menu |
+| **10** | **Caelestia Matcha Dark Mode (Tema Gelap Elegan)** | **Sangat Nyaman** (Anti-Silau) | **100% Selesai** | Menu: `View -> Dark` (`Ctrl+D`) |
 
 ---
 
-### 1. 🤖 AI Circuit Agent (Gemini 3.5 Flash Lite & Multi-Circuit Grid Generator)
+### 1. AI Circuit Agent (Gemini 3.5 Flash Lite & Multi-Circuit Grid Generator)
 
 - **Model Engine Utama**: Ditenagai oleh **Google Gemini 3.5 Flash Lite** (kuota resmi **500 hit/hari** dan **15 hit/menit**, respons kilat ~0.5s). Mendukung fallback berjenjang ke `gemini-3.1-flash-lite`, `gemini-2.5-flash`, dan `gemini-1.5-flash`.
 - **Multi-Circuit Generation**: Mampu merakit **beberapa rangkaian sekaligus secara otomatis** dalam satu kanvas terstruktur!
@@ -64,7 +64,7 @@ Sesuai prinsip ketat proyek:
 
 ---
 
-### 2. 🪟 Integrasi Caelestia Desktop Launcher & Hyprland
+### 2. Integrasi Caelestia Desktop Launcher & Hyprland
 
 Aplikasi telah terintegrasi penuh ke dalam sistem desktop **Caelestia (Hyprland Wayland)**:
 - **Desktop Entry ([`digital-works.desktop`](file:///home/daun/.local/share/applications/digital-works.desktop))**:
@@ -79,7 +79,7 @@ Aplikasi telah terintegrasi penuh ke dalam sistem desktop **Caelestia (Hyprland 
 
 ---
 
-### 3. 📊 Real Boolean Solver (Tabel Kebenaran Akurat Nyata)
+### 3. Real Boolean Solver (Tabel Kebenaran Akurat Nyata)
 
 - **Cara Kerja**: Mesin AST binary parser membaca file `.dwm` secara mendalam, mengekstrak topologi gerbang (AND, OR, NOT, NAND, NOR, XOR, XNOR, Half Adder, Full Adder, Multiplexer) beserta koneksi kawat antar pin.
 - **Akurasi 100%**: Menghitung secara nyata setiap kemungkinan kombinasi input ($00, 01, 10, 11$) dan memvalidasi output sebenarnya dari rangkaian.
@@ -87,7 +87,7 @@ Aplikasi telah terintegrasi penuh ke dalam sistem desktop **Caelestia (Hyprland 
 
 ---
 
-### 4. 📋 Multi-Format Export (TSV untuk Word / LaTeX / Markdown)
+### 4. Multi-Format Export (TSV untuk Word / LaTeX / Markdown)
 
 Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berbagai format:
 - **Microsoft Word Native TSV ([`Tabel_Kebenaran_Word.tsv`](file:///home/daun/aplikasi-prak/digitalworks/Tabel_Kebenaran_Word.tsv))**:
@@ -100,11 +100,11 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 5. 📸 Batch State Screenshotter & Auto-Crop untuk Laporan Praktikum
+### 5. Batch State Screenshotter & Auto-Crop untuk Laporan Praktikum
 
 - **Iterasi Otomatis Semua State**: Sistem secara otomatis mengiterasi seluruh kombinasi logika ($A=0, B=0 \rightarrow A=0, B=1 \rightarrow A=1, B=0 \rightarrow A=1, B=1$).
 - **38 Tangkapan Layar Asli**: Menyimpan gambar beresolusi tinggi untuk setiap kemungkinan kondisi input dan status nyala LED ke direktori:
-  📂 **[`laporan_screenshots/`](file:///home/daun/aplikasi-prak/digitalworks/laporan_screenshots/)**
+  **[`laporan_screenshots/`](file:///home/daun/aplikasi-prak/digitalworks/laporan_screenshots/)**
 - **Kolase Semua Kemungkinan (All-States Collage)**:
   Secara otomatis merangkai 4 kondisi state berdampingan dalam satu gambar horizontal ([`Kolase_Semua_Kemungkinan_Tabel_01_AND.png`](file:///home/daun/aplikasi-prak/digitalworks/laporan_screenshots/Kolase_Semua_Kemungkinan_Tabel_01_AND.png) & [`Kolase_Semua_Kemungkinan_Tabel_10_XOR.png`](file:///home/daun/aplikasi-prak/digitalworks/laporan_screenshots/Kolase_Semua_Kemungkinan_Tabel_10_XOR.png)), sangat ideal untuk disisipkan ke lembar laporan praktikum.
 - **Live Canvas Auto-Cropping**:
@@ -112,7 +112,7 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 6. 📐 Boolean Algebraic Equation ($Y = f(A, B)$)
+### 6. Boolean Algebraic Equation ($Y = f(A, B)$)
 
 - **Persamaan Ringkas**: Menyederhanakan fungsi logika menjadi ekspresi matematis ringkas (misal: $Y = A \oplus B$ untuk XOR, $Y = A \cdot B$ untuk AND, $Y = \overline{A \cdot B}$ untuk NAND).
 - **Bentuk Kanonik SOP (Sum of Products)**: Menghasilkan persamaan minterm standar ($\sum m$).
@@ -121,7 +121,7 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 7. 📐 Sistem Modular Layout Grid ala Microsoft Word & AI Anchor API
+### 7. Sistem Modular Layout Grid ala Microsoft Word & AI Anchor API
 
 - **Sistem Grid ala Tabel Microsoft Word**:
   - **Show / Hide Gridlines**: Garis bantu grid dapat ditampilkan atau disembunyikan kapan saja melalui menu **`View -> Layout Grid`** atau shortcut **`Ctrl+G`**.
@@ -148,7 +148,7 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 9. ⚡ Instant Delete (Bypass Konfirmasi Peringatan Hapus)
+### 9. Instant Delete (Bypass Konfirmasi Peringatan Hapus)
 
 - Menghilangkan dialog konfirmasi *"Are you sure you want to delete this object?"* secara permanen melalui patch assembly:
   - Tombol keyboard `Delete`: `jmp 0x0049d640` di alamat `0x0049d5f3`.
@@ -157,7 +157,7 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 10. 🍵 Caelestia Matcha Dark Mode (Tema Gelap Elegan & Anti-Silau)
+### 10. Caelestia Matcha Dark Mode (Tema Gelap Elegan & Anti-Silau)
 
 - Mencegat 5 thunk Windows GDI di section `.mod` (`CreateSolidBrush`, `CreateBrushIndirect`, `CreatePenIndirect`, `SetTextColor`, `SetBkColor`, `GetSysColor`).
 - Mengubah canvas menjadi **Matte Matcha Slate `#1C201D`**, garis gerbang/kawat menjadi **Soft White `#E5E1E7`**, titik grid menjadi **Deep Matcha Pine `#374B3E`**, dan judul rangkaian menjadi **Radiant Sky Blue `#9DCEFF`**.
@@ -166,9 +166,9 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-### 11. 🔌 Analisis Mendalam Wiring Tool & Aturan Keamanan Elemen Sirkuit
+### 11. Analisis Mendalam Wiring Tool & Aturan Keamanan Elemen Sirkuit
 
-#### 🔍 A. Investigasi Akar Masalah Kegagalan Wiring Tool
+#### A. Investigasi Akar Masalah Kegagalan Wiring Tool
 1. **Pencegatan Hit-Test Toolbar (Toolbar Interception Bug)**:
    - Pada percobaan penataan layout sebelumnya, fungsi `FixLayout` memanggil `SetHeight(80)` pada kontrol `ToolBar1` (`0x490`).
    - Hal ini membuat area transparan `ToolBar1` melebar ke bawah dan menutupi `ToolBar2` (tempat tombol `SpeedWireTool` berada di offset `0x524`).
@@ -188,13 +188,13 @@ Setelah mengevaluasi tabel kebenaran, sistem secara otomatis mengekspor ke berba
 
 ---
 
-#### ⚡ B. Analisis Karakteristik & Aturan Keamanan Seluruh Elemen Sirkuit (Physics & Logic Engine)
+#### B. Analisis Karakteristik & Aturan Keamanan Seluruh Elemen Sirkuit (Physics & Logic Engine)
 
 Agar perakitan rangkaian bebas crash, bebas pesan error, dan aman secara logika, pahami aturan fisika engine Digital Works berikut:
 
 | Kategori Elemen | Komponen | Karakteristik Pin & Fisika Digital Works | Aturan & Tindakan Pencegahan |
 |---|---|---|---|
-| **Wiring Engine** | **Kabel / Wire** | Sinyal biner (0 = Low/Mati, 1 = High/Merah). Mendukung percabangan kawat (*T-junction*). | • **Output $\rightarrow$ Input**: ✅ Sangat aman & valid.<br>• **Output $\rightarrow$ Output**: ❌ **DILARANG KERAS** (memicu *bus contention / short circuit*, DigitalWorks akan menolak koneksi dan membunyikan alarm *beep*).<br>• **Input $\rightarrow$ Input Langsung**: ❌ Tidak dapat ditarik tanpa sumber penggerak (*driver*). |
+| **Wiring Engine** | **Kabel / Wire** | Sinyal biner (0 = Low/Mati, 1 = High/Merah). Mendukung percabangan kawat (*T-junction*). | • **Output $\rightarrow$ Input**: Sangat aman & valid.<br>• **Output $\rightarrow$ Output**: **DILARANG KERAS** (memicu *bus contention / short circuit*, DigitalWorks akan menolak koneksi dan membunyikan alarm *beep*).<br>• **Input $\rightarrow$ Input Langsung**: Tidak dapat ditarik tanpa sumber penggerak (*driver*). |
 | **Input Elemen** | **Interactive Switch** | Saklar biner 1-pin output (0 atau 1). Mode *toggle*. | Digunakan untuk memberikan input A, B, C pada gerbang logika. Aman dihubungkan ke banyak input gerbang (fan-out). |
 | | **Push Button** | Tombol pulsa 1-pin output. Aktif 1 hanya selama mouse ditekan. | Sangat ideal untuk tombol Reset (CLR) atau trigger pulsa manual. |
 | | **Clock Generator** | Generator osilasi kotak periodik (1-pin output). | Memiliki pengaturan frekuensi detak (Hz). Jangan menghubungkan output Clock langsung ke output gerbang lain. |
@@ -207,7 +207,7 @@ Agar perakitan rangkaian bebas crash, bebas pesan error, dan aman secara logika,
 
 ---
 
-## ⌨️ Daftar Lengkap Pintasan Keyboard (Shortcuts)
+##  Daftar Lengkap Pintasan Keyboard (Shortcuts)
 
 | Shortcut | Fungsi | Keterangan |
 |---|---|---|
@@ -223,19 +223,19 @@ Agar perakitan rangkaian bebas crash, bebas pesan error, dan aman secara logika,
 
 ---
 
-## 🖥️ Menu Header Resmi Digital Works
+##  Menu Header Resmi Digital Works
 
 ```text
 File   Edit   Circuit   View   Mods   Help
                          │      │      │
-                         │      │      └── 🤖 &AI Assistant   (Ctrl+I)
+                         │      │      └── &AI Assistant   (Ctrl+I)
                          │      │
                          │      ├── ↶ &Undo (Ctrl+Z)
                          │      ├── ↷ &Redo (Ctrl+Y)
-                         │      ├── 📊 Auto &Truth Table...
-                         │      ├── 📸 &Batch Capture...
-                         │      ├── 📐 &Boolean Equation...
-                         │      └── 💾 &Save Snapshot
+                         │      ├── Auto &Truth Table...
+                         │      ├── &Batch Capture...
+                         │      ├── &Boolean Equation...
+                         │      └── &Save Snapshot
                          │
                          ├── ...
                          ├── &Dark (Ctrl+D)
@@ -244,7 +244,7 @@ File   Edit   Circuit   View   Mods   Help
 
 ---
 
-## 🛠️ Antarmuka Baris Perintah (CLI Runner Options)
+##  Antarmuka Baris Perintah (CLI Runner Options)
 
 ELF runner native [`digitalworks`](file:///home/daun/aplikasi-prak/digitalworks/digitalworks) (dan wrapper [`/home/daun/.local/bin/digital-works`](file:///home/daun/.local/bin/digital-works)) mendukung berbagai flag CLI cepat tanpa perlu membuka GUI:
 
@@ -298,7 +298,7 @@ ELF runner native [`digitalworks`](file:///home/daun/aplikasi-prak/digitalworks/
 
 ---
 
-## 📂 Struktur Direktori Proyek
+## Struktur Direktori Proyek
 
 ```text
 /home/daun/aplikasi-prak/digitalworks/
@@ -336,7 +336,7 @@ ELF runner native [`digitalworks`](file:///home/daun/aplikasi-prak/digitalworks/
 
 ---
 
-## 👨‍💻 Informasi Pembuat & Praktikum
+## Informasi Pembuat & Praktikum
 
 - **Mata Kuliah**: Praktikum Sistem Digital
 - **Program Studi**: S1 Informatika, Universitas Sebelas Maret (UNS)

@@ -20,8 +20,8 @@
 ## 2. Peta Class Delphi & Simbol Internal (229 Class)
 
 Semua class Delphi internal telah dipetakan lengkap dengan alamat **VMT (Virtual Method Table)** di:
-📄 [`re_extracted/symbols_map.txt`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/symbols_map.txt)  
-📄 [`re_extracted/classes_and_methods.json`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/classes_and_methods.json)
+[`re_extracted/symbols_map.txt`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/symbols_map.txt)  
+[`re_extracted/classes_and_methods.json`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/classes_and_methods.json)
 
 ### Class Komponen Logika Utama:
 - **Gerbang Logika:** `TGate`, `TGateDevice`, `TAndGate`, `TNandGate`, `TOrGate`, `TNorGate`, `TXorGate`, `TXnorGate`, `TNotGate`, `TTriState`
@@ -36,7 +36,7 @@ Semua class Delphi internal telah dipetakan lengkap dengan alamat **VMT (Virtual
 ## 3. Peta Titik Kunci Event Handler (Untuk Target Hook / Modding)
 
 Seluruh 106 published methods dari `TMainForm` telah diidentifikasi dan dibongkar disassembly-nya:
-📄 [`re_extracted/core_handlers_disasm.asm`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/core_handlers_disasm.asm)
+[`re_extracted/core_handlers_disasm.asm`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/core_handlers_disasm.asm)
 
 Berikut titik-titik krusial yang bisa kita jadikan target modifikasi:
 
@@ -59,7 +59,7 @@ Berikut titik-titik krusial yang bisa kita jadikan target modifikasi:
 ## 4. Resource Form DFM yang Berhasil Diekstrak
 
 Semua 19 layout dialog dan form VCL telah diekstrak ke folder:
-📂 [`re_extracted/forms/`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/forms)
+[`re_extracted/forms/`](file:///home/daun/aplikasi-prak/digitalworks/re_extracted/forms)
 
 - **`TMAINFORM.raw`** (198 KB) — Seluruh menu bar, toolbar, palette tombol, dan canvas event bindings.
 - **`TPARTSFORM.raw`** (56 KB) — Jendela pemilihan IC Parts Centre.
@@ -72,7 +72,7 @@ Semua 19 layout dialog dan form VCL telah diekstrak ke folder:
 
 Kini setelah struktur internal dan alamat fungsi terbongkar, Anda dapat menentukan teknik modding apa yang ingin kita gunakan:
 
-### 🎯 Pilihan 1: Wine Proxy DLL Sideloading (Teknik Paling Fleksibel & Canggih)
+### Pilihan 1: Wine Proxy DLL Sideloading (Teknik Paling Fleksibel & Canggih)
 - `DigitalWorks.exe` mengimpor `version.dll`. Kita buat file `version.dll` 32-bit kustom di folder aplikasi ini.
 - Begitu Digital Works dibuka dengan Wine, DLL kita otomatis terinjeksi ke dalam memori proses.
 - **Kemampuan:**
@@ -81,13 +81,13 @@ Kini setelah struktur internal dan alamat fungsi terbongkar, Anda dapat menentuk
   - Meng-hook fungsi GDI (`FillRect`, `SetBkColor`) untuk menyuntikkan **Dark Mode** langsung pada kanvas Digital Works.
   - Membaca memori state gerbang logika saat simulasi untuk auto-export ke tabel kebenaran.
 
-### 🎯 Pilihan 2: Binary Byte Patching (Modifikasi File Langsung)
+### Pilihan 2: Binary Byte Patching (Modifikasi File Langsung)
 - Memodifikasi langsung *opcode* mesin di dalam section `CODE` atau resource string di `TMAINFORM`.
 - **Kemampuan:**
   - Mengubah shortcut bawaan.
   - Mengubah batas maksimum frekuensi clock, ukuran default kanvas, atau default setting grid.
 
-### 🎯 Pilihan 3: Python Companion Engine (Aman & Tanpa Ganggu Stabilitas Binary)
+### Pilihan 3: Python Companion Engine (Aman & Tanpa Ganggu Stabilitas Binary)
 - Menjalankan helper script yang berjalan berdampingan dengan Digital Works:
   - Auto-Backup daemon tiap detik (jika salah hapus di Digital Works, ada tombol revert instan).
   - Truth Table Solver otomatis dari file `.dwm` yang sedang aktif.

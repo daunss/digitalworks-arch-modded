@@ -8,7 +8,7 @@ chmod +x digitalworks dw_undo_engine.py 2>/dev/null || true
 
 # Periksa apakah wine tersedia
 if ! command -v wine &>/dev/null; then
-    echo "⚠️ Wine belum terpasang di sistem Linux Anda."
+    echo "[PERINGATAN] Wine belum terpasang di sistem Linux Anda."
     echo "Silakan pasang Wine terlebih dahulu (contoh: sudo pacman -S wine atau sudo apt install wine)."
     exit 1
 fi
