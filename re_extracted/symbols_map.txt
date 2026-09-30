@@ -1,0 +1,737 @@
+=================================================================
+DIGITAL WORKS (DELPHI 5) - RECOVERED SYMBOLS & EVENT HANDLERS MAP
+=================================================================
+
+Class: TAboutBox (VMT: 0x44f9ec)
+  0x44fb7c : ImageClick
+  0x44fb84 : Label4Click
+
+Class: TActionLink (VMT: 0x4380d8)
+
+Class: TAnalyserForm (VMT: 0x4a088c)
+  0x4a0cd4 : FormCreate
+  0x4a0d38 : FormDestroy
+  0x4a148c : PaintPaint
+  0x4a17f4 : RangeClick
+  0x4a0d44 : FormShow
+  0x4a1884 : SpeedRunClick
+  0x4a18b8 : SpeedStopClick
+  0x4a18e0 : SpeedPauseClick
+  0x4a1900 : SpeedStepClick
+  0x4a0df4 : FormResize
+  0x4a1910 : Close1Click
+  0x4a1918 : SpeedDisplayClick
+  0x4a193c : MenuOptionsClick
+  0x4a1968 : MenuHighlightClick
+  0x4a198c : HelpTopicsClick
+
+Class: TAndGate (VMT: 0x45a0e8)
+
+Class: TApplication (VMT: 0x4426d4)
+
+Class: TAssociateHelpDialog (VMT: 0x4874e4)
+  0x48793c : EditContextIDKeyPress
+  0x4879b4 : ButtonOKClick
+  0x487788 : FormShow
+  0x487a90 : ButtonHelpClick
+
+Class: TBaseDragControlObject (VMT: 0x42888c)
+
+Class: TBasicAction (VMT: 0x40e138)
+
+Class: TBasicActionLink (VMT: 0x40e0b8)
+
+Class: TBevel (VMT: 0x44d578)
+
+Class: TBitGenerator (VMT: 0x45e928)
+
+Class: TBitmap (VMT: 0x41768c)
+
+Class: TBitmapCanvas (VMT: 0x41c67c)
+
+Class: TBitmapImage (VMT: 0x41762c)
+
+Class: TBits (VMT: 0x40d410)
+
+Class: TBrush (VMT: 0x4170b8)
+
+Class: TButton (VMT: 0x424468)
+
+Class: TButtonActionLink (VMT: 0x424250)
+
+Class: TButtonControl (VMT: 0x424314)
+
+Class: TCanvas (VMT: 0x41717c)
+
+Class: TChangeLink (VMT: 0x438c10)
+
+Class: TChangeMemoryDialog (VMT: 0x48c8cc)
+  0x48cc30 : OnChange
+  0x48cd88 : FormCreate
+  0x48ce3c : FormDestroy
+  0x48ce4c : FormShow
+  0x48cefc : PaintBoxPaint
+  0x48cb80 : RadioClick
+
+Class: TCheckBox (VMT: 0x424ccc)
+
+Class: TClipboard (VMT: 0x42805c)
+
+Class: TClipboardFormats (VMT: 0x41b22c)
+
+Class: TClockDevice (VMT: 0x45e834)
+
+Class: TClockedFlipFlop (VMT: 0x460938)
+
+Class: TCollection (VMT: 0x40d5b4)
+
+Class: TCollectionItem (VMT: 0x40d500)
+
+Class: TColorDialog (VMT: 0x45050c)
+
+Class: TCommonDialog (VMT: 0x44fdb4)
+
+Class: TComponent (VMT: 0x40df5c)
+
+Class: TContainedAction (VMT: 0x437de8)
+
+Class: TControl (VMT: 0x429410)
+
+Class: TControlActionLink (VMT: 0x428ad4)
+
+Class: TControlCanvas (VMT: 0x428a34)
+
+Class: TControlScrollBar (VMT: 0x44044c)
+
+Class: TConversion (VMT: 0x466e0c)
+
+Class: TCustomAction (VMT: 0x437fe4)
+
+Class: TCustomActionList (VMT: 0x437f0c)
+
+Class: TCustomCheckBox (VMT: 0x424b3c)
+
+Class: TCustomControl (VMT: 0x429ea4)
+
+Class: TCustomDockForm (VMT: 0x4423e0)
+
+Class: TCustomEdit (VMT: 0x422e0c)
+
+Class: TCustomForm (VMT: 0x441464)
+
+Class: TCustomGrid (VMT: 0x48d370)
+
+Class: TCustomGroupBox (VMT: 0x421dc4)
+
+Class: TCustomImageList (VMT: 0x438d04)
+
+Class: TCustomLabel (VMT: 0x422650)
+
+Class: TCustomListView (VMT: 0x468620)
+
+Class: TCustomMaskEdit (VMT: 0x47d2b0)
+
+Class: TCustomMemo (VMT: 0x423844)
+
+Class: TCustomMemoryStream (VMT: 0x40dabc)
+
+Class: TCustomPanel (VMT: 0x44d8a0)
+
+Class: TCustomTabControl (VMT: 0x464a1c)
+
+Class: TCustomTreeView (VMT: 0x466624)
+
+Class: TCustomUpDown (VMT: 0x466fe8)
+
+Class: TDFlipFlop (VMT: 0x460c10)
+  0x46177c : Calculate
+  0x461870 : SetSlaveInputs
+
+Class: TDatasheetPathDialog (VMT: 0x497660)
+
+Class: TDescriptor (VMT: 0x452720)
+
+Class: TDevice (VMT: 0x457200)
+
+Class: TDigitalDrawing (VMT: 0x482670)
+  0x484558 : Paint
+  0x484588 : Clear
+
+Class: TDigitalHandles (VMT: 0x45811c)
+
+Class: TDockTree (VMT: 0x42a570)
+
+Class: TDockZone (VMT: 0x42a424)
+
+Class: TDragControlObject (VMT: 0x428918)
+
+Class: TDragDockObject (VMT: 0x4289a0)
+
+Class: TDragImageList (VMT: 0x42a148)
+
+Class: TDragObject (VMT: 0x428814)
+
+Class: TDrawGrid (VMT: 0x48d6f0)
+
+Class: TEdit (VMT: 0x422fac)
+
+Class: TEditContentsDialog (VMT: 0x4946b0)
+  0x494a8c : FormShow
+  0x494b50 : GridDrawCell
+  0x494d10 : GridKeyDown
+  0x494dd4 : GridSelectCell
+  0x494de8 : GridGetEditText
+  0x494ebc : GridSetEditText
+  0x494ed8 : GridKeyPress
+  0x494f94 : RadioClick
+  0x495000 : SpeedOpenClick
+  0x4951c4 : SpeedSaveClick
+  0x494fa0 : SpeedNewClick
+  0x495308 : FileExitClick
+  0x495310 : HelpContentsClick
+
+Class: TEditSequenceDialog (VMT: 0x47fc68)
+  0x48034c : ButtonNumberClick
+  0x480188 : ButtonClear1Click
+  0x4801a8 : ButtonBackClick
+  0x4804a0 : RadioHexClick
+  0x480530 : RadioBinClick
+  0x4805b8 : FormShow
+  0x480660 : ButtonOkClick
+  0x480284 : ButtonAlphaClick
+  0x480730 : RadioHexKeyPress
+  0x4806ec : RadioBinKeyPress
+  0x4809ac : ButtonNumberMouseDown
+  0x480b08 : ButtonAlphaMouseDown
+  0x480bd4 : ButtonBackMouseDown
+  0x480cb0 : ButtonClearMouseDown
+  0x48095c : RadioKeyDown
+
+Class: TEditSwitchDialog (VMT: 0x48a2b0)
+  0x48a5e8 : FormShow
+  0x48a540 : FormCreate
+  0x48a5d8 : FormDestroy
+  0x48a644 : PictureMouseDown
+  0x48a678 : PictureMouseUp
+  0x48a6ac : RadioToggleClick
+  0x48a6e8 : RadioPushToMakeClick
+  0x48a720 : RadioPushToBreakClick
+  0x48a75c : PicturePaint
+
+Class: TEditTextDialog (VMT: 0x47cce4)
+  0x47cf80 : ButtonSetColorClick
+  0x47cfa4 : CheckBoxClick
+  0x47d048 : SizeClick
+  0x47d104 : FormShow
+  0x47d1c0 : ButtonClearClick
+
+Class: TFileData (VMT: 0x495a5c)
+
+Class: TFileFormatsList (VMT: 0x41af18)
+
+Class: TFileStatusDialog (VMT: 0x482448)
+  0x4825b4 : FormShow
+
+Class: TFileStream (VMT: 0x40da54)
+
+Class: TFiler (VMT: 0x40dda4)
+
+Class: TFlipFlop (VMT: 0x46084c)
+
+Class: TFloatPoint (VMT: 0x453174)
+
+Class: TFont (VMT: 0x416e3c)
+
+Class: TForm (VMT: 0x441748)
+
+Class: TGateDevice (VMT: 0x459f0c)
+
+Class: TGraphic (VMT: 0x417304)
+
+Class: TGraphicBox (VMT: 0x4817f8)
+
+Class: TGraphicControl (VMT: 0x429d8c)
+
+Class: TGraphicList (VMT: 0x454d18)
+
+Class: TGraphicObject (VMT: 0x453fb0)
+
+Class: TGraphicText (VMT: 0x4568d4)
+
+Class: TGraphicsObject (VMT: 0x416d68)
+
+Class: TGrid (VMT: 0x455374)
+
+Class: TGridSetupDialog (VMT: 0x47c7b8)
+  0x47ca54 : ButtonOkClick
+  0x47cac0 : FormShow
+  0x47cb80 : DisplayUpDownClick
+  0x47cbf0 : GridUpDownClick
+
+Class: TGround (VMT: 0x45e564)
+
+Class: TGroupBox (VMT: 0x421f20)
+
+Class: THandleStream (VMT: 0x40d9e8)
+
+Class: THintAction (VMT: 0x428658)
+
+Class: THintWindow (VMT: 0x429fec)
+
+Class: THistoryDevice (VMT: 0x4573d0)
+
+Class: TIcon (VMT: 0x4177cc)
+
+Class: TIconImage (VMT: 0x417770)
+
+Class: TIconOptions (VMT: 0x467b94)
+
+Class: TImage (VMT: 0x44cf8c)
+
+Class: TImageList (VMT: 0x42a20c)
+
+Class: TInplaceEdit (VMT: 0x48d008)
+
+Class: TInputDevice (VMT: 0x45e470)
+
+Class: TIntConst (VMT: 0x40e68c)
+
+Class: TInteractiveInput (VMT: 0x480e5c)
+
+Class: TInteractiveSwitch (VMT: 0x480d5c)
+
+Class: TInterfacedObject (VMT: 0x401204)
+
+Class: TJKFlipFlop (VMT: 0x460b20)
+
+Class: TLEDDevice (VMT: 0x45f3fc)
+
+Class: TLEDSegmentDevice (VMT: 0x45f4e8)
+
+Class: TLabel (VMT: 0x422784)
+
+Class: TList (VMT: 0x40d354)
+
+Class: TListColumn (VMT: 0x467694)
+
+Class: TListColumns (VMT: 0x467854)
+
+Class: TListItem (VMT: 0x4678fc)
+
+Class: TListItems (VMT: 0x467994)
+
+Class: TListView (VMT: 0x46881c)
+
+Class: TMacro (VMT: 0x462344)
+
+Class: TMacroPin (VMT: 0x455758)
+
+Class: TMainForm (VMT: 0x498178)
+  0x499a10 : SpeedOpenClick
+  0x499fa4 : SpeedSaveClick
+  0x49a33c : MenuExitClick
+  0x49a344 : MenuAboutClick
+  0x49a550 : DrawingObjectDblClick
+  0x49a590 : DrawingMouseDown
+  0x49b7cc : DrawingOnPinSelected
+  0x49b7d4 : DrawingOnWireSelected
+  0x49b7e0 : DrawingOnObjectSelected
+  0x49b834 : DrawingOnObjectDeSelected
+  0x49b884 : FormCreate
+  0x49d040 : SpeedNewClick
+  0x49d2a8 : MenuShowGridClick
+  0x49d2d4 : MenuSnaptoGridClick
+  0x49d2f0 : MenuGridSetupClick
+  0x49d448 : MenuViewClick
+  0x49a354 : DrawingMouseMove
+  0x49d490 : SpeedWireToolClick
+  0x49d5c4 : DeleteClick
+  0x49d7e4 : EditAnnotationClick
+  0x49da40 : SpeedStepClick
+  0x49dabc : RunCircuit
+  0x49db78 : SpeedRunClick
+  0x49dbfc : SpeedStopClick
+  0x49dc54 : EditSequence
+  0x49ddd0 : SpeedUpdateClick
+  0x49df3c : MenuRunClick
+  0x49df58 : MenuStopClick
+  0x49df60 : MenuPauseClick
+  0x49df7c : ToolsTemplateEditorClick
+  0x49e068 : EditMacroClick
+  0x49e144 : SpeedCloseMacroClick
+  0x49dd30 : SetSwitchTypeClick
+  0x49e2b8 : StyleLeftClick
+  0x49e320 : StyleRightClick
+  0x49e388 : StyleTopClick
+  0x49e3f0 : StyleBottomClick
+  0x49e458 : HertzOneClick
+  0x49e46c : HertzTwoClick
+  0x49e480 : HertzFiveClick
+  0x49e4d0 : MenuClockSpeedClick
+  0x49e494 : HertzTenClick
+  0x49e5a8 : ColorLEDClick
+  0x49ea44 : RedLEDClick
+  0x49eab8 : GreenLEDClick
+  0x49eb2c : YellowLEDClick
+  0x49eba0 : BlueLEDClick
+  0x49a16c : MenuSaveAsClick
+  0x49c898 : FormClose
+  0x49ed18 : MenuEditClick
+  0x49eda8 : PopWireColorClick
+  0x49f394 : FormKeyDown
+  0x49f5dc : SpeedPrintClick
+  0x49f604 : MenuPrintSetupClick
+  0x49f610 : MenuPrintPreviewClick
+  0x49e204 : TagStyleClick
+  0x49f638 : PopNameClick
+  0x49f7bc : PopTextStyleClick
+  0x49f870 : PopTextLeftClick
+  0x49f8d8 : PopTextRightClick
+  0x49f940 : PopTextTopClick
+  0x49f9a8 : PopTextBottomClick
+  0x49fa30 : DevicePopupMenuPopup
+  0x49fafc : PopHistoryClick
+  0x49fba0 : SpeedProbeWindowClick
+  0x49dc20 : SpeedPauseClick
+  0x49fe2c : MenuToolsClick
+  0x49ba58 : FormShow
+  0x49fedc : MenuHelpTopicsClick
+  0x49fb60 : PopPulseInputClick
+  0x49d790 : PopEditMemoryClick
+  0x49ff5c : PopGateInputsClick
+  0x49fff8 : Pop2InputsClick
+  0x4a0168 : Pop3InputsClick
+  0x4a02d8 : Pop4InputsClick
+  0x49ba2c : FormDestroy
+  0x49d4f8 : MenuCutClick
+  0x49d550 : MenuCopyClick
+  0x49d5a8 : MenuPasteClick
+  0x49fa10 : MainPopupMenuPopup
+  0x4a07f8 : SpeedPartsCentreClick
+  0x4a0448 : DrawingDragOver
+  0x4a0468 : DrawingDragDrop
+  0x49d4cc : EditSelectAllClick
+  0x49fbe4 : MenuOptionsClick
+  0x49fc20 : OptionsAttachDatasheetClick
+  0x49e0ec : PopViewDatasheetClick
+  0x49ced8 : FormResize
+  0x49cef4 : MenuFileClick
+  0x499d80 : ReopenFileClick
+  0x49d9e4 : PopNameMacroClick
+  0x49fcfc : OptionsNameMacroClick
+  0x49e958 : PopCommonClick
+  0x49e9b4 : PopCathodeClick
+  0x49e9fc : PopAnodeClick
+  0x49f2a4 : FormShortCut
+  0x49fda8 : OptionsSetDatasheetPathClick
+  0x49fea0 : PopupStepPopup
+  0x49fecc : PopHalfCycleClick
+  0x49fed4 : PopFullCycleClick
+  0x49e4a8 : HertzFiftyClick
+  0x49ec88 : CustomColorClick
+  0x49ec14 : WhiteLEDClick
+  0x49e714 : PopPropertiesClick
+  0x49d7e0 : PopEditMemoClick
+  0x49e4bc : HertzHundredClick
+
+Class: TMainMenu (VMT: 0x43aa04)
+
+Class: TMapVertices (VMT: 0x453b00)
+
+Class: TMemo (VMT: 0x4239b8)
+
+Class: TMemoStrings (VMT: 0x425afc)
+
+Class: TMemoryDevice (VMT: 0x48bbbc)
+
+Class: TMemoryStream (VMT: 0x40db2c)
+
+Class: TMenu (VMT: 0x43a910)
+
+Class: TMenuActionLink (VMT: 0x43a458)
+
+Class: TMenuItem (VMT: 0x43a514)
+
+Class: TMenuItemStack (VMT: 0x43afec)
+
+Class: TMessageBox (VMT: 0x4818bc)
+
+Class: TMessageForm (VMT: 0x4519a4)
+
+Class: TMetafile (VMT: 0x417550)
+
+Class: TMetafileImage (VMT: 0x4174f0)
+
+Class: TMonitor (VMT: 0x4425a4)
+
+Class: TMouse (VMT: 0x42a5f4)
+
+Class: TMultiReadExclusiveWriteSynchronizer (VMT: 0x4083a8)
+
+Class: TNameMacroDialog (VMT: 0x497404)
+  0x4975c0 : FormShow
+  0x4975d0 : EditMacroNameKeyPress
+
+Class: TNandGate (VMT: 0x45a498)
+
+Class: TNorGate (VMT: 0x45abf4)
+
+Class: TNotGate (VMT: 0x459ffc)
+
+Class: TNumberOutDialog (VMT: 0x497874)
+  0x497b98 : FormShow
+  0x497b90 : FormCreate
+  0x497b94 : FormDestroy
+  0x497cec : PaintBoxPaint
+  0x497f80 : EditLinesChange
+  0x498010 : UpDownLineClick
+  0x4980a0 : RadioClick
+  0x4980dc : CheckComplementClick
+  0x4980e4 : CheckSuppressClick
+  0x4980ec : CheckPinsBottomClick
+
+Class: TNumericDevice (VMT: 0x45f5e4)
+
+Class: TObject (VMT: 0x401114)
+
+Class: TOpenDialog (VMT: 0x4500dc)
+
+Class: TOrGate (VMT: 0x45a848)
+
+Class: TOrderedList (VMT: 0x41f6d8)
+
+Class: TOutputDevice (VMT: 0x45f308)
+
+Class: TOwnedCollection (VMT: 0x40d67c)
+
+Class: TPageControl (VMT: 0x465164)
+
+Class: TPaintBox (VMT: 0x44ca94)
+
+Class: TPanel (VMT: 0x44da08)
+
+Class: TPartsForm (VMT: 0x49548c)
+  0x495a90 : FormCreate
+  0x495ad8 : FormDestroy
+  0x495af4 : FormShow
+  0x495e7c : ListDblClick
+  0x496938 : SpeedChangeLevelClick
+  0x495cbc : ListMouseDown
+  0x495c7c : ListStartDrag
+  0x495c90 : ListEndDrag
+  0x496968 : MenuCloseClick
+  0x4969dc : ViewLargeClick
+  0x4969f8 : ViewSmallClick
+  0x496970 : MenuViewClick
+  0x49695c : SpeedRootClick
+  0x496a30 : ViewMacroNameClick
+  0x496a4c : HelpTopicsClick
+  0x496b00 : PopViewDatasheetClick
+  0x496b28 : PopDeleteClick
+  0x496c00 : PopEditMacroClick
+  0x496cb4 : ListDragOver
+  0x496cd4 : ViewStatusBarClick
+  0x496cec : ListChange
+  0x495b44 : FormClose
+
+Class: TPatternManager (VMT: 0x41f1cc)
+
+Class: TPen (VMT: 0x416fb8)
+
+Class: TPersistent (VMT: 0x40d464)
+
+Class: TPicture (VMT: 0x4173e8)
+
+Class: TPin (VMT: 0x4556a4)
+
+Class: TPolygon (VMT: 0x4541d0)
+
+Class: TPolyline (VMT: 0x45428c)
+
+Class: TPopupList (VMT: 0x43af80)
+
+Class: TPopupMenu (VMT: 0x43acdc)
+
+Class: TPrintPreview (VMT: 0x48a804)
+  0x48acb0 : ImagePaint
+  0x48ae70 : FormShow
+  0x48aed8 : FormResize
+  0x48b148 : SpeedPrintClick
+  0x48b160 : SpeedEnlargeClick
+  0x48b194 : SpeedPortraitClick
+  0x48b1ac : SpeedLandscapeClick
+  0x48b1c4 : MenuExitClick
+  0x48b1cc : MenuPrintSetupClick
+  0x48b210 : SpeedCentreClick
+  0x48ae54 : FormCreate
+
+Class: TPrinter (VMT: 0x420a7c)
+
+Class: TPrinterCanvas (VMT: 0x420cb8)
+  0x420d98 : CreateHandle
+  0x420dbc : Changing
+  0x420ddc : UpdateFont
+
+Class: TPrinterDevice (VMT: 0x420b54)
+
+Class: TPrinterSetupDialog (VMT: 0x450658)
+
+Class: TProgressBar (VMT: 0x466844)
+
+Class: TPropFixup (VMT: 0x4118dc)
+
+Class: TRSFlipFlop (VMT: 0x460a34)
+
+Class: TRadioButton (VMT: 0x4253e8)
+
+Class: TReader (VMT: 0x40de08)
+
+Class: TRegistry (VMT: 0x48b5cc)
+
+Class: TRenameDialog (VMT: 0x48b2a0)
+  0x48b438 : FormShow
+
+Class: TResourceManager (VMT: 0x4178b4)
+
+Class: TResourceStream (VMT: 0x40db9c)
+
+Class: TSaveDialog (VMT: 0x4503b0)
+  0x451358 : Execute
+
+Class: TScreen (VMT: 0x4425fc)
+
+Class: TScrollBox (VMT: 0x440928)
+
+Class: TScrollingWinControl (VMT: 0x4406e0)
+
+Class: TSegment (VMT: 0x454114)
+
+Class: TSeqInputDevice (VMT: 0x45e72c)
+
+Class: TSerialize (VMT: 0x4524ac)
+  0x452510 : Write
+  0x452518 : Read
+
+Class: TSerializeList (VMT: 0x45256c)
+  0x452840 : Write
+  0x452880 : Read
+
+Class: TSerializeReader (VMT: 0x452698)
+
+Class: TSerializeWriter (VMT: 0x452624)
+
+Class: TShape (VMT: 0x44c648)
+  0x44e5bc : StyleChanged
+
+Class: TSharedImage (VMT: 0x417490)
+
+Class: TSiteList (VMT: 0x42aa08)
+
+Class: TSizeConstraints (VMT: 0x428c90)
+
+Class: TSolder (VMT: 0x4558c8)
+
+Class: TStack (VMT: 0x41f740)
+
+Class: TStatusBar (VMT: 0x465d24)
+
+Class: TStatusPanel (VMT: 0x465a8c)
+
+Class: TStatusPanels (VMT: 0x465c2c)
+
+Class: TStream (VMT: 0x40d984)
+
+Class: TStreamAdapter (VMT: 0x40dd1c)
+
+Class: TStringList (VMT: 0x40d880)
+
+Class: TStrings (VMT: 0x40d760)
+
+Class: TSubItems (VMT: 0x472b58)
+
+Class: TSupply (VMT: 0x45e648)
+
+Class: TTabSheet (VMT: 0x464bac)
+
+Class: TTabStrings (VMT: 0x46abec)
+
+Class: TTagDevice (VMT: 0x461d14)
+
+Class: TTemplateForm (VMT: 0x487bd4)
+  0x488510 : FormCreate
+  0x4887c4 : SpeedOpenClick
+  0x488974 : SpeedSaveClick
+  0x488a5c : FileExitClick
+  0x488ab4 : ViewShowGridClick
+  0x488ae0 : ViewSnaptoGridClick
+  0x488a6c : ViewMenuClick
+  0x488afc : ViewGridSetupClick
+  0x488e5c : FormClose
+  0x488c54 : FormShow
+  0x489380 : DrawingMouseDown
+  0x48965c : DrawingMouseUp
+  0x4897a8 : PopupDelete
+  0x489920 : EditAnnotationClick
+  0x489668 : SpeedUpdateClick
+  0x489b0c : AssociatePinClick
+  0x489c28 : SpeedNewClick
+  0x489d08 : SpeedDisplayPinsClick
+  0x489d40 : PopEditPointsClick
+  0x489d90 : PopBringToFrontClick
+  0x489d9c : PopSendToBackClick
+  0x489e24 : FormKeyDown
+  0x4896f4 : SpeedPolygonClick
+  0x48974c : SpeedPolylineClick
+  0x489ea8 : HelpContentsClick
+  0x488688 : FormDestroy
+  0x489f60 : PopPenColorClick
+  0x489ff0 : PopBrushColorClick
+  0x48a080 : TemplatePopupPopup
+  0x48a0ac : PopCutClick
+  0x48a0c4 : PopCopyClick
+  0x48a0dc : PopPasteClick
+  0x48a0f4 : MenuSelectAllClick
+  0x48a124 : UpdateEditMenu
+  0x48a224 : PopEditPopup
+  0x489da8 : FormShortCut
+
+Class: TTextDevice (VMT: 0x4572e4)
+
+Class: TThreadList (VMT: 0x40d3b8)
+
+Class: TTimer (VMT: 0x44d78c)
+
+Class: TToolBar (VMT: 0x469fc0)
+
+Class: TToolButton (VMT: 0x4697c4)
+
+Class: TToolButtonActionLink (VMT: 0x4696fc)
+
+Class: TToolDockForm (VMT: 0x463f68)
+
+Class: TToolWindow (VMT: 0x463e18)
+
+Class: TTreeNode (VMT: 0x466468)
+
+Class: TTreeNodes (VMT: 0x466504)
+
+Class: TTriState (VMT: 0x459e20)
+
+Class: TUpDown (VMT: 0x46714c)
+
+Class: TWinControl (VMT: 0x429988)
+
+Class: TWinControlActionLink (VMT: 0x42977c)
+
+Class: TWire (VMT: 0x455814)
+
+Class: TWorkArea (VMT: 0x467a20)
+
+Class: TWorkAreas (VMT: 0x467ac8)
+
+Class: TWriter (VMT: 0x40de98)
+
+Class: TXnorGate (VMT: 0x45b17c)
+
+Class: TXorGate (VMT: 0x45afa4)
+

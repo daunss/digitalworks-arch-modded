@@ -1,0 +1,30 @@
+# Private API Keys & Credentials
+.gemini_key
+*.key
+*.token
+
+# Personal Student Coursework & Assignments
+/kumpulan*.dwm
+/Tugas_*.dwm
+Sample Circuits/Tugas_*.dwm
+
+# Local Engine History & Trigger Files
+.undo_history/
+laporan_screenshots/
+
+# Intermediate Assembly & Object Builds
+*.o
+*.bin
+*.s
+*.orig
+*.orig_wine_bak
+__pycache__/
+*.py[cod]
+
+# Temporary Screen Captures
+test_*.png
+dw_active_screen.png
+dw_focused_screen.png
+current_screen.png
+hidden_window.png
+ws5_screen.png

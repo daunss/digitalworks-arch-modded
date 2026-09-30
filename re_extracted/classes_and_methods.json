@@ -1,0 +1,2729 @@
+{
+  "TObject": {
+    "className": "TObject",
+    "vmt_address": "0x401114",
+    "parent_vmt": "0x0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TInterfacedObject": {
+    "className": "TInterfacedObject",
+    "vmt_address": "0x401204",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMultiReadExclusiveWriteSynchronizer": {
+    "className": "TMultiReadExclusiveWriteSynchronizer",
+    "vmt_address": "0x4083a8",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TList": {
+    "className": "TList",
+    "vmt_address": "0x40d354",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TThreadList": {
+    "className": "TThreadList",
+    "vmt_address": "0x40d3b8",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBits": {
+    "className": "TBits",
+    "vmt_address": "0x40d410",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPersistent": {
+    "className": "TPersistent",
+    "vmt_address": "0x40d464",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCollectionItem": {
+    "className": "TCollectionItem",
+    "vmt_address": "0x40d500",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCollection": {
+    "className": "TCollection",
+    "vmt_address": "0x40d5b4",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TOwnedCollection": {
+    "className": "TOwnedCollection",
+    "vmt_address": "0x40d67c",
+    "parent_vmt": "0x40d568",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStrings": {
+    "className": "TStrings",
+    "vmt_address": "0x40d760",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStringList": {
+    "className": "TStringList",
+    "vmt_address": "0x40d880",
+    "parent_vmt": "0x40d714",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStream": {
+    "className": "TStream",
+    "vmt_address": "0x40d984",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "THandleStream": {
+    "className": "THandleStream",
+    "vmt_address": "0x40d9e8",
+    "parent_vmt": "0x40d938",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFileStream": {
+    "className": "TFileStream",
+    "vmt_address": "0x40da54",
+    "parent_vmt": "0x40d99c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomMemoryStream": {
+    "className": "TCustomMemoryStream",
+    "vmt_address": "0x40dabc",
+    "parent_vmt": "0x40d938",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMemoryStream": {
+    "className": "TMemoryStream",
+    "vmt_address": "0x40db2c",
+    "parent_vmt": "0x40da70",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TResourceStream": {
+    "className": "TResourceStream",
+    "vmt_address": "0x40db9c",
+    "parent_vmt": "0x40da70",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStreamAdapter": {
+    "className": "TStreamAdapter",
+    "vmt_address": "0x40dd1c",
+    "parent_vmt": "0x4011b8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFiler": {
+    "className": "TFiler",
+    "vmt_address": "0x40dda4",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TReader": {
+    "className": "TReader",
+    "vmt_address": "0x40de08",
+    "parent_vmt": "0x40dd58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWriter": {
+    "className": "TWriter",
+    "vmt_address": "0x40de98",
+    "parent_vmt": "0x40dd58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TComponent": {
+    "className": "TComponent",
+    "vmt_address": "0x40df5c",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBasicActionLink": {
+    "className": "TBasicActionLink",
+    "vmt_address": "0x40e0b8",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBasicAction": {
+    "className": "TBasicAction",
+    "vmt_address": "0x40e138",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TIntConst": {
+    "className": "TIntConst",
+    "vmt_address": "0x40e68c",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPropFixup": {
+    "className": "TPropFixup",
+    "vmt_address": "0x4118dc",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicsObject": {
+    "className": "TGraphicsObject",
+    "vmt_address": "0x416d68",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFont": {
+    "className": "TFont",
+    "vmt_address": "0x416e3c",
+    "parent_vmt": "0x416d1c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPen": {
+    "className": "TPen",
+    "vmt_address": "0x416fb8",
+    "parent_vmt": "0x416d1c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBrush": {
+    "className": "TBrush",
+    "vmt_address": "0x4170b8",
+    "parent_vmt": "0x416d1c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCanvas": {
+    "className": "TCanvas",
+    "vmt_address": "0x41717c",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphic": {
+    "className": "TGraphic",
+    "vmt_address": "0x417304",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPicture": {
+    "className": "TPicture",
+    "vmt_address": "0x4173e8",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSharedImage": {
+    "className": "TSharedImage",
+    "vmt_address": "0x417490",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMetafileImage": {
+    "className": "TMetafileImage",
+    "vmt_address": "0x4174f0",
+    "parent_vmt": "0x417444",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMetafile": {
+    "className": "TMetafile",
+    "vmt_address": "0x417550",
+    "parent_vmt": "0x4172b8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBitmapImage": {
+    "className": "TBitmapImage",
+    "vmt_address": "0x41762c",
+    "parent_vmt": "0x417444",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBitmap": {
+    "className": "TBitmap",
+    "vmt_address": "0x41768c",
+    "parent_vmt": "0x4172b8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TIconImage": {
+    "className": "TIconImage",
+    "vmt_address": "0x417770",
+    "parent_vmt": "0x417444",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TIcon": {
+    "className": "TIcon",
+    "vmt_address": "0x4177cc",
+    "parent_vmt": "0x4172b8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TResourceManager": {
+    "className": "TResourceManager",
+    "vmt_address": "0x4178b4",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFileFormatsList": {
+    "className": "TFileFormatsList",
+    "vmt_address": "0x41af18",
+    "parent_vmt": "0x40d308",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TClipboardFormats": {
+    "className": "TClipboardFormats",
+    "vmt_address": "0x41b22c",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBitmapCanvas": {
+    "className": "TBitmapCanvas",
+    "vmt_address": "0x41c67c",
+    "parent_vmt": "0x417130",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPatternManager": {
+    "className": "TPatternManager",
+    "vmt_address": "0x41f1cc",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TOrderedList": {
+    "className": "TOrderedList",
+    "vmt_address": "0x41f6d8",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStack": {
+    "className": "TStack",
+    "vmt_address": "0x41f740",
+    "parent_vmt": "0x41f68c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPrinter": {
+    "className": "TPrinter",
+    "vmt_address": "0x420a7c",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPrinterDevice": {
+    "className": "TPrinterDevice",
+    "vmt_address": "0x420b54",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPrinterCanvas": {
+    "className": "TPrinterCanvas",
+    "vmt_address": "0x420cb8",
+    "parent_vmt": "0x417130",
+    "methods_count": 3,
+    "published_methods": [
+      {
+        "name": "CreateHandle",
+        "address": "0x420d98"
+      },
+      {
+        "name": "Changing",
+        "address": "0x420dbc"
+      },
+      {
+        "name": "UpdateFont",
+        "address": "0x420ddc"
+      }
+    ]
+  },
+  "TCustomGroupBox": {
+    "className": "TCustomGroupBox",
+    "vmt_address": "0x421dc4",
+    "parent_vmt": "0x429e58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGroupBox": {
+    "className": "TGroupBox",
+    "vmt_address": "0x421f20",
+    "parent_vmt": "0x421d78",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomLabel": {
+    "className": "TCustomLabel",
+    "vmt_address": "0x422650",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TLabel": {
+    "className": "TLabel",
+    "vmt_address": "0x422784",
+    "parent_vmt": "0x422604",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomEdit": {
+    "className": "TCustomEdit",
+    "vmt_address": "0x422e0c",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TEdit": {
+    "className": "TEdit",
+    "vmt_address": "0x422fac",
+    "parent_vmt": "0x422dc0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomMemo": {
+    "className": "TCustomMemo",
+    "vmt_address": "0x423844",
+    "parent_vmt": "0x422dc0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMemo": {
+    "className": "TMemo",
+    "vmt_address": "0x4239b8",
+    "parent_vmt": "0x4237f8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TButtonActionLink": {
+    "className": "TButtonActionLink",
+    "vmt_address": "0x424250",
+    "parent_vmt": "0x429730",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TButtonControl": {
+    "className": "TButtonControl",
+    "vmt_address": "0x424314",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TButton": {
+    "className": "TButton",
+    "vmt_address": "0x424468",
+    "parent_vmt": "0x4242c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomCheckBox": {
+    "className": "TCustomCheckBox",
+    "vmt_address": "0x424b3c",
+    "parent_vmt": "0x4242c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCheckBox": {
+    "className": "TCheckBox",
+    "vmt_address": "0x424ccc",
+    "parent_vmt": "0x424af0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TRadioButton": {
+    "className": "TRadioButton",
+    "vmt_address": "0x4253e8",
+    "parent_vmt": "0x4242c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMemoStrings": {
+    "className": "TMemoStrings",
+    "vmt_address": "0x425afc",
+    "parent_vmt": "0x40d714",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TClipboard": {
+    "className": "TClipboard",
+    "vmt_address": "0x42805c",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "THintAction": {
+    "className": "THintAction",
+    "vmt_address": "0x428658",
+    "parent_vmt": "0x437f98",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDragObject": {
+    "className": "TDragObject",
+    "vmt_address": "0x428814",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBaseDragControlObject": {
+    "className": "TBaseDragControlObject",
+    "vmt_address": "0x42888c",
+    "parent_vmt": "0x4287c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDragControlObject": {
+    "className": "TDragControlObject",
+    "vmt_address": "0x428918",
+    "parent_vmt": "0x428840",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDragDockObject": {
+    "className": "TDragDockObject",
+    "vmt_address": "0x4289a0",
+    "parent_vmt": "0x428840",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TControlCanvas": {
+    "className": "TControlCanvas",
+    "vmt_address": "0x428a34",
+    "parent_vmt": "0x417130",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TControlActionLink": {
+    "className": "TControlActionLink",
+    "vmt_address": "0x428ad4",
+    "parent_vmt": "0x43808c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSizeConstraints": {
+    "className": "TSizeConstraints",
+    "vmt_address": "0x428c90",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TControl": {
+    "className": "TControl",
+    "vmt_address": "0x429410",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWinControlActionLink": {
+    "className": "TWinControlActionLink",
+    "vmt_address": "0x42977c",
+    "parent_vmt": "0x428a88",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWinControl": {
+    "className": "TWinControl",
+    "vmt_address": "0x429988",
+    "parent_vmt": "0x4293c4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicControl": {
+    "className": "TGraphicControl",
+    "vmt_address": "0x429d8c",
+    "parent_vmt": "0x4293c4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomControl": {
+    "className": "TCustomControl",
+    "vmt_address": "0x429ea4",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "THintWindow": {
+    "className": "THintWindow",
+    "vmt_address": "0x429fec",
+    "parent_vmt": "0x429e58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDragImageList": {
+    "className": "TDragImageList",
+    "vmt_address": "0x42a148",
+    "parent_vmt": "0x438cb8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TImageList": {
+    "className": "TImageList",
+    "vmt_address": "0x42a20c",
+    "parent_vmt": "0x42a0fc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDockZone": {
+    "className": "TDockZone",
+    "vmt_address": "0x42a424",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDockTree": {
+    "className": "TDockTree",
+    "vmt_address": "0x42a570",
+    "parent_vmt": "0x4011b8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMouse": {
+    "className": "TMouse",
+    "vmt_address": "0x42a5f4",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSiteList": {
+    "className": "TSiteList",
+    "vmt_address": "0x42aa08",
+    "parent_vmt": "0x40d308",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TContainedAction": {
+    "className": "TContainedAction",
+    "vmt_address": "0x437de8",
+    "parent_vmt": "0x40e0ec",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomActionList": {
+    "className": "TCustomActionList",
+    "vmt_address": "0x437f0c",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomAction": {
+    "className": "TCustomAction",
+    "vmt_address": "0x437fe4",
+    "parent_vmt": "0x437d9c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TActionLink": {
+    "className": "TActionLink",
+    "vmt_address": "0x4380d8",
+    "parent_vmt": "0x40e06c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TChangeLink": {
+    "className": "TChangeLink",
+    "vmt_address": "0x438c10",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomImageList": {
+    "className": "TCustomImageList",
+    "vmt_address": "0x438d04",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMenuActionLink": {
+    "className": "TMenuActionLink",
+    "vmt_address": "0x43a458",
+    "parent_vmt": "0x43808c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMenuItem": {
+    "className": "TMenuItem",
+    "vmt_address": "0x43a514",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMenu": {
+    "className": "TMenu",
+    "vmt_address": "0x43a910",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMainMenu": {
+    "className": "TMainMenu",
+    "vmt_address": "0x43aa04",
+    "parent_vmt": "0x43a8c4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPopupMenu": {
+    "className": "TPopupMenu",
+    "vmt_address": "0x43acdc",
+    "parent_vmt": "0x43a8c4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPopupList": {
+    "className": "TPopupList",
+    "vmt_address": "0x43af80",
+    "parent_vmt": "0x40d308",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMenuItemStack": {
+    "className": "TMenuItemStack",
+    "vmt_address": "0x43afec",
+    "parent_vmt": "0x41f6f4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TControlScrollBar": {
+    "className": "TControlScrollBar",
+    "vmt_address": "0x44044c",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TScrollingWinControl": {
+    "className": "TScrollingWinControl",
+    "vmt_address": "0x4406e0",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TScrollBox": {
+    "className": "TScrollBox",
+    "vmt_address": "0x440928",
+    "parent_vmt": "0x440694",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomForm": {
+    "className": "TCustomForm",
+    "vmt_address": "0x441464",
+    "parent_vmt": "0x440694",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TForm": {
+    "className": "TForm",
+    "vmt_address": "0x441748",
+    "parent_vmt": "0x441418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomDockForm": {
+    "className": "TCustomDockForm",
+    "vmt_address": "0x4423e0",
+    "parent_vmt": "0x441418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMonitor": {
+    "className": "TMonitor",
+    "vmt_address": "0x4425a4",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TScreen": {
+    "className": "TScreen",
+    "vmt_address": "0x4425fc",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TApplication": {
+    "className": "TApplication",
+    "vmt_address": "0x4426d4",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TShape": {
+    "className": "TShape",
+    "vmt_address": "0x44c648",
+    "parent_vmt": "0x429d40",
+    "methods_count": 1,
+    "published_methods": [
+      {
+        "name": "StyleChanged",
+        "address": "0x44e5bc"
+      }
+    ]
+  },
+  "TPaintBox": {
+    "className": "TPaintBox",
+    "vmt_address": "0x44ca94",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TImage": {
+    "className": "TImage",
+    "vmt_address": "0x44cf8c",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBevel": {
+    "className": "TBevel",
+    "vmt_address": "0x44d578",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTimer": {
+    "className": "TTimer",
+    "vmt_address": "0x44d78c",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomPanel": {
+    "className": "TCustomPanel",
+    "vmt_address": "0x44d8a0",
+    "parent_vmt": "0x429e58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPanel": {
+    "className": "TPanel",
+    "vmt_address": "0x44da08",
+    "parent_vmt": "0x44d854",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TAboutBox": {
+    "className": "TAboutBox",
+    "vmt_address": "0x44f9ec",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "ImageClick",
+        "address": "0x44fb7c"
+      },
+      {
+        "name": "Label4Click",
+        "address": "0x44fb84"
+      }
+    ]
+  },
+  "TCommonDialog": {
+    "className": "TCommonDialog",
+    "vmt_address": "0x44fdb4",
+    "parent_vmt": "0x40df10",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TOpenDialog": {
+    "className": "TOpenDialog",
+    "vmt_address": "0x4500dc",
+    "parent_vmt": "0x44fd68",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSaveDialog": {
+    "className": "TSaveDialog",
+    "vmt_address": "0x4503b0",
+    "parent_vmt": "0x450090",
+    "methods_count": 1,
+    "published_methods": [
+      {
+        "name": "Execute",
+        "address": "0x451358"
+      }
+    ]
+  },
+  "TColorDialog": {
+    "className": "TColorDialog",
+    "vmt_address": "0x45050c",
+    "parent_vmt": "0x44fd68",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPrinterSetupDialog": {
+    "className": "TPrinterSetupDialog",
+    "vmt_address": "0x450658",
+    "parent_vmt": "0x44fd68",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMessageForm": {
+    "className": "TMessageForm",
+    "vmt_address": "0x4519a4",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSerialize": {
+    "className": "TSerialize",
+    "vmt_address": "0x4524ac",
+    "parent_vmt": "0x40d418",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "Write",
+        "address": "0x452510"
+      },
+      {
+        "name": "Read",
+        "address": "0x452518"
+      }
+    ]
+  },
+  "TSerializeList": {
+    "className": "TSerializeList",
+    "vmt_address": "0x45256c",
+    "parent_vmt": "0x452460",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "Write",
+        "address": "0x452840"
+      },
+      {
+        "name": "Read",
+        "address": "0x452880"
+      }
+    ]
+  },
+  "TSerializeWriter": {
+    "className": "TSerializeWriter",
+    "vmt_address": "0x452624",
+    "parent_vmt": "0x40de4c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSerializeReader": {
+    "className": "TSerializeReader",
+    "vmt_address": "0x452698",
+    "parent_vmt": "0x40ddbc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDescriptor": {
+    "className": "TDescriptor",
+    "vmt_address": "0x452720",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFloatPoint": {
+    "className": "TFloatPoint",
+    "vmt_address": "0x453174",
+    "parent_vmt": "0x452460",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMapVertices": {
+    "className": "TMapVertices",
+    "vmt_address": "0x453b00",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicObject": {
+    "className": "TGraphicObject",
+    "vmt_address": "0x453fb0",
+    "parent_vmt": "0x452460",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSegment": {
+    "className": "TSegment",
+    "vmt_address": "0x454114",
+    "parent_vmt": "0x453f64",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPolygon": {
+    "className": "TPolygon",
+    "vmt_address": "0x4541d0",
+    "parent_vmt": "0x4540c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPolyline": {
+    "className": "TPolyline",
+    "vmt_address": "0x45428c",
+    "parent_vmt": "0x4540c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicList": {
+    "className": "TGraphicList",
+    "vmt_address": "0x454d18",
+    "parent_vmt": "0x453f64",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGrid": {
+    "className": "TGrid",
+    "vmt_address": "0x455374",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPin": {
+    "className": "TPin",
+    "vmt_address": "0x4556a4",
+    "parent_vmt": "0x454184",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMacroPin": {
+    "className": "TMacroPin",
+    "vmt_address": "0x455758",
+    "parent_vmt": "0x455658",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWire": {
+    "className": "TWire",
+    "vmt_address": "0x455814",
+    "parent_vmt": "0x454240",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSolder": {
+    "className": "TSolder",
+    "vmt_address": "0x4558c8",
+    "parent_vmt": "0x454184",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicText": {
+    "className": "TGraphicText",
+    "vmt_address": "0x4568d4",
+    "parent_vmt": "0x454184",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDevice": {
+    "className": "TDevice",
+    "vmt_address": "0x457200",
+    "parent_vmt": "0x454ccc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTextDevice": {
+    "className": "TTextDevice",
+    "vmt_address": "0x4572e4",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "THistoryDevice": {
+    "className": "THistoryDevice",
+    "vmt_address": "0x4573d0",
+    "parent_vmt": "0x457298",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDigitalHandles": {
+    "className": "TDigitalHandles",
+    "vmt_address": "0x45811c",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTriState": {
+    "className": "TTriState",
+    "vmt_address": "0x459e20",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGateDevice": {
+    "className": "TGateDevice",
+    "vmt_address": "0x459f0c",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNotGate": {
+    "className": "TNotGate",
+    "vmt_address": "0x459ffc",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TAndGate": {
+    "className": "TAndGate",
+    "vmt_address": "0x45a0e8",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNandGate": {
+    "className": "TNandGate",
+    "vmt_address": "0x45a498",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TOrGate": {
+    "className": "TOrGate",
+    "vmt_address": "0x45a848",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNorGate": {
+    "className": "TNorGate",
+    "vmt_address": "0x45abf4",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TXorGate": {
+    "className": "TXorGate",
+    "vmt_address": "0x45afa4",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TXnorGate": {
+    "className": "TXnorGate",
+    "vmt_address": "0x45b17c",
+    "parent_vmt": "0x459ec0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TInputDevice": {
+    "className": "TInputDevice",
+    "vmt_address": "0x45e470",
+    "parent_vmt": "0x457384",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGround": {
+    "className": "TGround",
+    "vmt_address": "0x45e564",
+    "parent_vmt": "0x45e424",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSupply": {
+    "className": "TSupply",
+    "vmt_address": "0x45e648",
+    "parent_vmt": "0x45e424",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSeqInputDevice": {
+    "className": "TSeqInputDevice",
+    "vmt_address": "0x45e72c",
+    "parent_vmt": "0x45e424",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TClockDevice": {
+    "className": "TClockDevice",
+    "vmt_address": "0x45e834",
+    "parent_vmt": "0x45e6e0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TBitGenerator": {
+    "className": "TBitGenerator",
+    "vmt_address": "0x45e928",
+    "parent_vmt": "0x45e6e0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TOutputDevice": {
+    "className": "TOutputDevice",
+    "vmt_address": "0x45f308",
+    "parent_vmt": "0x457384",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TLEDDevice": {
+    "className": "TLEDDevice",
+    "vmt_address": "0x45f3fc",
+    "parent_vmt": "0x45f2bc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TLEDSegmentDevice": {
+    "className": "TLEDSegmentDevice",
+    "vmt_address": "0x45f4e8",
+    "parent_vmt": "0x45f2bc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNumericDevice": {
+    "className": "TNumericDevice",
+    "vmt_address": "0x45f5e4",
+    "parent_vmt": "0x45f2bc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFlipFlop": {
+    "className": "TFlipFlop",
+    "vmt_address": "0x46084c",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TClockedFlipFlop": {
+    "className": "TClockedFlipFlop",
+    "vmt_address": "0x460938",
+    "parent_vmt": "0x460800",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TRSFlipFlop": {
+    "className": "TRSFlipFlop",
+    "vmt_address": "0x460a34",
+    "parent_vmt": "0x460800",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TJKFlipFlop": {
+    "className": "TJKFlipFlop",
+    "vmt_address": "0x460b20",
+    "parent_vmt": "0x4608ec",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDFlipFlop": {
+    "className": "TDFlipFlop",
+    "vmt_address": "0x460c10",
+    "parent_vmt": "0x4608ec",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "Calculate",
+        "address": "0x46177c"
+      },
+      {
+        "name": "SetSlaveInputs",
+        "address": "0x461870"
+      }
+    ]
+  },
+  "TTagDevice": {
+    "className": "TTagDevice",
+    "vmt_address": "0x461d14",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMacro": {
+    "className": "TMacro",
+    "vmt_address": "0x462344",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TToolWindow": {
+    "className": "TToolWindow",
+    "vmt_address": "0x463e18",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TToolDockForm": {
+    "className": "TToolDockForm",
+    "vmt_address": "0x463f68",
+    "parent_vmt": "0x442394",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomTabControl": {
+    "className": "TCustomTabControl",
+    "vmt_address": "0x464a1c",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTabSheet": {
+    "className": "TTabSheet",
+    "vmt_address": "0x464bac",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TPageControl": {
+    "className": "TPageControl",
+    "vmt_address": "0x465164",
+    "parent_vmt": "0x4649d0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStatusPanel": {
+    "className": "TStatusPanel",
+    "vmt_address": "0x465a8c",
+    "parent_vmt": "0x40d4b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStatusPanels": {
+    "className": "TStatusPanels",
+    "vmt_address": "0x465c2c",
+    "parent_vmt": "0x40d568",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TStatusBar": {
+    "className": "TStatusBar",
+    "vmt_address": "0x465d24",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTreeNode": {
+    "className": "TTreeNode",
+    "vmt_address": "0x466468",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTreeNodes": {
+    "className": "TTreeNodes",
+    "vmt_address": "0x466504",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomTreeView": {
+    "className": "TCustomTreeView",
+    "vmt_address": "0x466624",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TProgressBar": {
+    "className": "TProgressBar",
+    "vmt_address": "0x466844",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TConversion": {
+    "className": "TConversion",
+    "vmt_address": "0x466e0c",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomUpDown": {
+    "className": "TCustomUpDown",
+    "vmt_address": "0x466fe8",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TUpDown": {
+    "className": "TUpDown",
+    "vmt_address": "0x46714c",
+    "parent_vmt": "0x466f9c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TListColumn": {
+    "className": "TListColumn",
+    "vmt_address": "0x467694",
+    "parent_vmt": "0x40d4b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TListColumns": {
+    "className": "TListColumns",
+    "vmt_address": "0x467854",
+    "parent_vmt": "0x40d568",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TListItem": {
+    "className": "TListItem",
+    "vmt_address": "0x4678fc",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TListItems": {
+    "className": "TListItems",
+    "vmt_address": "0x467994",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWorkArea": {
+    "className": "TWorkArea",
+    "vmt_address": "0x467a20",
+    "parent_vmt": "0x40d4b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TWorkAreas": {
+    "className": "TWorkAreas",
+    "vmt_address": "0x467ac8",
+    "parent_vmt": "0x40d630",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TIconOptions": {
+    "className": "TIconOptions",
+    "vmt_address": "0x467b94",
+    "parent_vmt": "0x40d418",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomListView": {
+    "className": "TCustomListView",
+    "vmt_address": "0x468620",
+    "parent_vmt": "0x42993c",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TListView": {
+    "className": "TListView",
+    "vmt_address": "0x46881c",
+    "parent_vmt": "0x4685d4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TToolButtonActionLink": {
+    "className": "TToolButtonActionLink",
+    "vmt_address": "0x4696fc",
+    "parent_vmt": "0x428a88",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TToolButton": {
+    "className": "TToolButton",
+    "vmt_address": "0x4697c4",
+    "parent_vmt": "0x429d40",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TToolBar": {
+    "className": "TToolBar",
+    "vmt_address": "0x469fc0",
+    "parent_vmt": "0x463dcc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TTabStrings": {
+    "className": "TTabStrings",
+    "vmt_address": "0x46abec",
+    "parent_vmt": "0x40d714",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TSubItems": {
+    "className": "TSubItems",
+    "vmt_address": "0x472b58",
+    "parent_vmt": "0x40d834",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGridSetupDialog": {
+    "className": "TGridSetupDialog",
+    "vmt_address": "0x47c7b8",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 4,
+    "published_methods": [
+      {
+        "name": "ButtonOkClick",
+        "address": "0x47ca54"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x47cac0"
+      },
+      {
+        "name": "DisplayUpDownClick",
+        "address": "0x47cb80"
+      },
+      {
+        "name": "GridUpDownClick",
+        "address": "0x47cbf0"
+      }
+    ]
+  },
+  "TEditTextDialog": {
+    "className": "TEditTextDialog",
+    "vmt_address": "0x47cce4",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 5,
+    "published_methods": [
+      {
+        "name": "ButtonSetColorClick",
+        "address": "0x47cf80"
+      },
+      {
+        "name": "CheckBoxClick",
+        "address": "0x47cfa4"
+      },
+      {
+        "name": "SizeClick",
+        "address": "0x47d048"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x47d104"
+      },
+      {
+        "name": "ButtonClearClick",
+        "address": "0x47d1c0"
+      }
+    ]
+  },
+  "TCustomMaskEdit": {
+    "className": "TCustomMaskEdit",
+    "vmt_address": "0x47d2b0",
+    "parent_vmt": "0x422dc0",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TEditSequenceDialog": {
+    "className": "TEditSequenceDialog",
+    "vmt_address": "0x47fc68",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 15,
+    "published_methods": [
+      {
+        "name": "ButtonNumberClick",
+        "address": "0x48034c"
+      },
+      {
+        "name": "ButtonClear1Click",
+        "address": "0x480188"
+      },
+      {
+        "name": "ButtonBackClick",
+        "address": "0x4801a8"
+      },
+      {
+        "name": "RadioHexClick",
+        "address": "0x4804a0"
+      },
+      {
+        "name": "RadioBinClick",
+        "address": "0x480530"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x4805b8"
+      },
+      {
+        "name": "ButtonOkClick",
+        "address": "0x480660"
+      },
+      {
+        "name": "ButtonAlphaClick",
+        "address": "0x480284"
+      },
+      {
+        "name": "RadioHexKeyPress",
+        "address": "0x480730"
+      },
+      {
+        "name": "RadioBinKeyPress",
+        "address": "0x4806ec"
+      },
+      {
+        "name": "ButtonNumberMouseDown",
+        "address": "0x4809ac"
+      },
+      {
+        "name": "ButtonAlphaMouseDown",
+        "address": "0x480b08"
+      },
+      {
+        "name": "ButtonBackMouseDown",
+        "address": "0x480bd4"
+      },
+      {
+        "name": "ButtonClearMouseDown",
+        "address": "0x480cb0"
+      },
+      {
+        "name": "RadioKeyDown",
+        "address": "0x48095c"
+      }
+    ]
+  },
+  "TInteractiveSwitch": {
+    "className": "TInteractiveSwitch",
+    "vmt_address": "0x480d5c",
+    "parent_vmt": "0x457298",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TInteractiveInput": {
+    "className": "TInteractiveInput",
+    "vmt_address": "0x480e5c",
+    "parent_vmt": "0x45e424",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TGraphicBox": {
+    "className": "TGraphicBox",
+    "vmt_address": "0x4817f8",
+    "parent_vmt": "0x454184",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMessageBox": {
+    "className": "TMessageBox",
+    "vmt_address": "0x4818bc",
+    "parent_vmt": "0x4817ac",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TFileStatusDialog": {
+    "className": "TFileStatusDialog",
+    "vmt_address": "0x482448",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 1,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x4825b4"
+      }
+    ]
+  },
+  "TDigitalDrawing": {
+    "className": "TDigitalDrawing",
+    "vmt_address": "0x482670",
+    "parent_vmt": "0x429e58",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "Paint",
+        "address": "0x484558"
+      },
+      {
+        "name": "Clear",
+        "address": "0x484588"
+      }
+    ]
+  },
+  "TAssociateHelpDialog": {
+    "className": "TAssociateHelpDialog",
+    "vmt_address": "0x4874e4",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 4,
+    "published_methods": [
+      {
+        "name": "EditContextIDKeyPress",
+        "address": "0x48793c"
+      },
+      {
+        "name": "ButtonOKClick",
+        "address": "0x4879b4"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x487788"
+      },
+      {
+        "name": "ButtonHelpClick",
+        "address": "0x487a90"
+      }
+    ]
+  },
+  "TTemplateForm": {
+    "className": "TTemplateForm",
+    "vmt_address": "0x487bd4",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 36,
+    "published_methods": [
+      {
+        "name": "FormCreate",
+        "address": "0x488510"
+      },
+      {
+        "name": "SpeedOpenClick",
+        "address": "0x4887c4"
+      },
+      {
+        "name": "SpeedSaveClick",
+        "address": "0x488974"
+      },
+      {
+        "name": "FileExitClick",
+        "address": "0x488a5c"
+      },
+      {
+        "name": "ViewShowGridClick",
+        "address": "0x488ab4"
+      },
+      {
+        "name": "ViewSnaptoGridClick",
+        "address": "0x488ae0"
+      },
+      {
+        "name": "ViewMenuClick",
+        "address": "0x488a6c"
+      },
+      {
+        "name": "ViewGridSetupClick",
+        "address": "0x488afc"
+      },
+      {
+        "name": "FormClose",
+        "address": "0x488e5c"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x488c54"
+      },
+      {
+        "name": "DrawingMouseDown",
+        "address": "0x489380"
+      },
+      {
+        "name": "DrawingMouseUp",
+        "address": "0x48965c"
+      },
+      {
+        "name": "PopupDelete",
+        "address": "0x4897a8"
+      },
+      {
+        "name": "EditAnnotationClick",
+        "address": "0x489920"
+      },
+      {
+        "name": "SpeedUpdateClick",
+        "address": "0x489668"
+      },
+      {
+        "name": "AssociatePinClick",
+        "address": "0x489b0c"
+      },
+      {
+        "name": "SpeedNewClick",
+        "address": "0x489c28"
+      },
+      {
+        "name": "SpeedDisplayPinsClick",
+        "address": "0x489d08"
+      },
+      {
+        "name": "PopEditPointsClick",
+        "address": "0x489d40"
+      },
+      {
+        "name": "PopBringToFrontClick",
+        "address": "0x489d90"
+      },
+      {
+        "name": "PopSendToBackClick",
+        "address": "0x489d9c"
+      },
+      {
+        "name": "FormKeyDown",
+        "address": "0x489e24"
+      },
+      {
+        "name": "SpeedPolygonClick",
+        "address": "0x4896f4"
+      },
+      {
+        "name": "SpeedPolylineClick",
+        "address": "0x48974c"
+      },
+      {
+        "name": "HelpContentsClick",
+        "address": "0x489ea8"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x488688"
+      },
+      {
+        "name": "PopPenColorClick",
+        "address": "0x489f60"
+      },
+      {
+        "name": "PopBrushColorClick",
+        "address": "0x489ff0"
+      },
+      {
+        "name": "TemplatePopupPopup",
+        "address": "0x48a080"
+      },
+      {
+        "name": "PopCutClick",
+        "address": "0x48a0ac"
+      },
+      {
+        "name": "PopCopyClick",
+        "address": "0x48a0c4"
+      },
+      {
+        "name": "PopPasteClick",
+        "address": "0x48a0dc"
+      },
+      {
+        "name": "MenuSelectAllClick",
+        "address": "0x48a0f4"
+      },
+      {
+        "name": "UpdateEditMenu",
+        "address": "0x48a124"
+      },
+      {
+        "name": "PopEditPopup",
+        "address": "0x48a224"
+      },
+      {
+        "name": "FormShortCut",
+        "address": "0x489da8"
+      }
+    ]
+  },
+  "TEditSwitchDialog": {
+    "className": "TEditSwitchDialog",
+    "vmt_address": "0x48a2b0",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 9,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x48a5e8"
+      },
+      {
+        "name": "FormCreate",
+        "address": "0x48a540"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x48a5d8"
+      },
+      {
+        "name": "PictureMouseDown",
+        "address": "0x48a644"
+      },
+      {
+        "name": "PictureMouseUp",
+        "address": "0x48a678"
+      },
+      {
+        "name": "RadioToggleClick",
+        "address": "0x48a6ac"
+      },
+      {
+        "name": "RadioPushToMakeClick",
+        "address": "0x48a6e8"
+      },
+      {
+        "name": "RadioPushToBreakClick",
+        "address": "0x48a720"
+      },
+      {
+        "name": "PicturePaint",
+        "address": "0x48a75c"
+      }
+    ]
+  },
+  "TPrintPreview": {
+    "className": "TPrintPreview",
+    "vmt_address": "0x48a804",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 11,
+    "published_methods": [
+      {
+        "name": "ImagePaint",
+        "address": "0x48acb0"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x48ae70"
+      },
+      {
+        "name": "FormResize",
+        "address": "0x48aed8"
+      },
+      {
+        "name": "SpeedPrintClick",
+        "address": "0x48b148"
+      },
+      {
+        "name": "SpeedEnlargeClick",
+        "address": "0x48b160"
+      },
+      {
+        "name": "SpeedPortraitClick",
+        "address": "0x48b194"
+      },
+      {
+        "name": "SpeedLandscapeClick",
+        "address": "0x48b1ac"
+      },
+      {
+        "name": "MenuExitClick",
+        "address": "0x48b1c4"
+      },
+      {
+        "name": "MenuPrintSetupClick",
+        "address": "0x48b1cc"
+      },
+      {
+        "name": "SpeedCentreClick",
+        "address": "0x48b210"
+      },
+      {
+        "name": "FormCreate",
+        "address": "0x48ae54"
+      }
+    ]
+  },
+  "TRenameDialog": {
+    "className": "TRenameDialog",
+    "vmt_address": "0x48b2a0",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 1,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x48b438"
+      }
+    ]
+  },
+  "TRegistry": {
+    "className": "TRegistry",
+    "vmt_address": "0x48b5cc",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TMemoryDevice": {
+    "className": "TMemoryDevice",
+    "vmt_address": "0x48bbbc",
+    "parent_vmt": "0x4571b4",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TChangeMemoryDialog": {
+    "className": "TChangeMemoryDialog",
+    "vmt_address": "0x48c8cc",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 6,
+    "published_methods": [
+      {
+        "name": "OnChange",
+        "address": "0x48cc30"
+      },
+      {
+        "name": "FormCreate",
+        "address": "0x48cd88"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x48ce3c"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x48ce4c"
+      },
+      {
+        "name": "PaintBoxPaint",
+        "address": "0x48cefc"
+      },
+      {
+        "name": "RadioClick",
+        "address": "0x48cb80"
+      }
+    ]
+  },
+  "TInplaceEdit": {
+    "className": "TInplaceEdit",
+    "vmt_address": "0x48d008",
+    "parent_vmt": "0x47d264",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TCustomGrid": {
+    "className": "TCustomGrid",
+    "vmt_address": "0x48d370",
+    "parent_vmt": "0x429e58",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TDrawGrid": {
+    "className": "TDrawGrid",
+    "vmt_address": "0x48d6f0",
+    "parent_vmt": "0x48d324",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TEditContentsDialog": {
+    "className": "TEditContentsDialog",
+    "vmt_address": "0x4946b0",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 13,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x494a8c"
+      },
+      {
+        "name": "GridDrawCell",
+        "address": "0x494b50"
+      },
+      {
+        "name": "GridKeyDown",
+        "address": "0x494d10"
+      },
+      {
+        "name": "GridSelectCell",
+        "address": "0x494dd4"
+      },
+      {
+        "name": "GridGetEditText",
+        "address": "0x494de8"
+      },
+      {
+        "name": "GridSetEditText",
+        "address": "0x494ebc"
+      },
+      {
+        "name": "GridKeyPress",
+        "address": "0x494ed8"
+      },
+      {
+        "name": "RadioClick",
+        "address": "0x494f94"
+      },
+      {
+        "name": "SpeedOpenClick",
+        "address": "0x495000"
+      },
+      {
+        "name": "SpeedSaveClick",
+        "address": "0x4951c4"
+      },
+      {
+        "name": "SpeedNewClick",
+        "address": "0x494fa0"
+      },
+      {
+        "name": "FileExitClick",
+        "address": "0x495308"
+      },
+      {
+        "name": "HelpContentsClick",
+        "address": "0x495310"
+      }
+    ]
+  },
+  "TPartsForm": {
+    "className": "TPartsForm",
+    "vmt_address": "0x49548c",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 22,
+    "published_methods": [
+      {
+        "name": "FormCreate",
+        "address": "0x495a90"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x495ad8"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x495af4"
+      },
+      {
+        "name": "ListDblClick",
+        "address": "0x495e7c"
+      },
+      {
+        "name": "SpeedChangeLevelClick",
+        "address": "0x496938"
+      },
+      {
+        "name": "ListMouseDown",
+        "address": "0x495cbc"
+      },
+      {
+        "name": "ListStartDrag",
+        "address": "0x495c7c"
+      },
+      {
+        "name": "ListEndDrag",
+        "address": "0x495c90"
+      },
+      {
+        "name": "MenuCloseClick",
+        "address": "0x496968"
+      },
+      {
+        "name": "ViewLargeClick",
+        "address": "0x4969dc"
+      },
+      {
+        "name": "ViewSmallClick",
+        "address": "0x4969f8"
+      },
+      {
+        "name": "MenuViewClick",
+        "address": "0x496970"
+      },
+      {
+        "name": "SpeedRootClick",
+        "address": "0x49695c"
+      },
+      {
+        "name": "ViewMacroNameClick",
+        "address": "0x496a30"
+      },
+      {
+        "name": "HelpTopicsClick",
+        "address": "0x496a4c"
+      },
+      {
+        "name": "PopViewDatasheetClick",
+        "address": "0x496b00"
+      },
+      {
+        "name": "PopDeleteClick",
+        "address": "0x496b28"
+      },
+      {
+        "name": "PopEditMacroClick",
+        "address": "0x496c00"
+      },
+      {
+        "name": "ListDragOver",
+        "address": "0x496cb4"
+      },
+      {
+        "name": "ViewStatusBarClick",
+        "address": "0x496cd4"
+      },
+      {
+        "name": "ListChange",
+        "address": "0x496cec"
+      },
+      {
+        "name": "FormClose",
+        "address": "0x495b44"
+      }
+    ]
+  },
+  "TFileData": {
+    "className": "TFileData",
+    "vmt_address": "0x495a5c",
+    "parent_vmt": "0x4010c8",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNameMacroDialog": {
+    "className": "TNameMacroDialog",
+    "vmt_address": "0x497404",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 2,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x4975c0"
+      },
+      {
+        "name": "EditMacroNameKeyPress",
+        "address": "0x4975d0"
+      }
+    ]
+  },
+  "TDatasheetPathDialog": {
+    "className": "TDatasheetPathDialog",
+    "vmt_address": "0x497660",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 0,
+    "published_methods": []
+  },
+  "TNumberOutDialog": {
+    "className": "TNumberOutDialog",
+    "vmt_address": "0x497874",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 10,
+    "published_methods": [
+      {
+        "name": "FormShow",
+        "address": "0x497b98"
+      },
+      {
+        "name": "FormCreate",
+        "address": "0x497b90"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x497b94"
+      },
+      {
+        "name": "PaintBoxPaint",
+        "address": "0x497cec"
+      },
+      {
+        "name": "EditLinesChange",
+        "address": "0x497f80"
+      },
+      {
+        "name": "UpDownLineClick",
+        "address": "0x498010"
+      },
+      {
+        "name": "RadioClick",
+        "address": "0x4980a0"
+      },
+      {
+        "name": "CheckComplementClick",
+        "address": "0x4980dc"
+      },
+      {
+        "name": "CheckSuppressClick",
+        "address": "0x4980e4"
+      },
+      {
+        "name": "CheckPinsBottomClick",
+        "address": "0x4980ec"
+      }
+    ]
+  },
+  "TMainForm": {
+    "className": "TMainForm",
+    "vmt_address": "0x498178",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 106,
+    "published_methods": [
+      {
+        "name": "SpeedOpenClick",
+        "address": "0x499a10"
+      },
+      {
+        "name": "SpeedSaveClick",
+        "address": "0x499fa4"
+      },
+      {
+        "name": "MenuExitClick",
+        "address": "0x49a33c"
+      },
+      {
+        "name": "MenuAboutClick",
+        "address": "0x49a344"
+      },
+      {
+        "name": "DrawingObjectDblClick",
+        "address": "0x49a550"
+      },
+      {
+        "name": "DrawingMouseDown",
+        "address": "0x49a590"
+      },
+      {
+        "name": "DrawingOnPinSelected",
+        "address": "0x49b7cc"
+      },
+      {
+        "name": "DrawingOnWireSelected",
+        "address": "0x49b7d4"
+      },
+      {
+        "name": "DrawingOnObjectSelected",
+        "address": "0x49b7e0"
+      },
+      {
+        "name": "DrawingOnObjectDeSelected",
+        "address": "0x49b834"
+      },
+      {
+        "name": "FormCreate",
+        "address": "0x49b884"
+      },
+      {
+        "name": "SpeedNewClick",
+        "address": "0x49d040"
+      },
+      {
+        "name": "MenuShowGridClick",
+        "address": "0x49d2a8"
+      },
+      {
+        "name": "MenuSnaptoGridClick",
+        "address": "0x49d2d4"
+      },
+      {
+        "name": "MenuGridSetupClick",
+        "address": "0x49d2f0"
+      },
+      {
+        "name": "MenuViewClick",
+        "address": "0x49d448"
+      },
+      {
+        "name": "DrawingMouseMove",
+        "address": "0x49a354"
+      },
+      {
+        "name": "SpeedWireToolClick",
+        "address": "0x49d490"
+      },
+      {
+        "name": "DeleteClick",
+        "address": "0x49d5c4"
+      },
+      {
+        "name": "EditAnnotationClick",
+        "address": "0x49d7e4"
+      },
+      {
+        "name": "SpeedStepClick",
+        "address": "0x49da40"
+      },
+      {
+        "name": "RunCircuit",
+        "address": "0x49dabc"
+      },
+      {
+        "name": "SpeedRunClick",
+        "address": "0x49db78"
+      },
+      {
+        "name": "SpeedStopClick",
+        "address": "0x49dbfc"
+      },
+      {
+        "name": "EditSequence",
+        "address": "0x49dc54"
+      },
+      {
+        "name": "SpeedUpdateClick",
+        "address": "0x49ddd0"
+      },
+      {
+        "name": "MenuRunClick",
+        "address": "0x49df3c"
+      },
+      {
+        "name": "MenuStopClick",
+        "address": "0x49df58"
+      },
+      {
+        "name": "MenuPauseClick",
+        "address": "0x49df60"
+      },
+      {
+        "name": "ToolsTemplateEditorClick",
+        "address": "0x49df7c"
+      },
+      {
+        "name": "EditMacroClick",
+        "address": "0x49e068"
+      },
+      {
+        "name": "SpeedCloseMacroClick",
+        "address": "0x49e144"
+      },
+      {
+        "name": "SetSwitchTypeClick",
+        "address": "0x49dd30"
+      },
+      {
+        "name": "StyleLeftClick",
+        "address": "0x49e2b8"
+      },
+      {
+        "name": "StyleRightClick",
+        "address": "0x49e320"
+      },
+      {
+        "name": "StyleTopClick",
+        "address": "0x49e388"
+      },
+      {
+        "name": "StyleBottomClick",
+        "address": "0x49e3f0"
+      },
+      {
+        "name": "HertzOneClick",
+        "address": "0x49e458"
+      },
+      {
+        "name": "HertzTwoClick",
+        "address": "0x49e46c"
+      },
+      {
+        "name": "HertzFiveClick",
+        "address": "0x49e480"
+      },
+      {
+        "name": "MenuClockSpeedClick",
+        "address": "0x49e4d0"
+      },
+      {
+        "name": "HertzTenClick",
+        "address": "0x49e494"
+      },
+      {
+        "name": "ColorLEDClick",
+        "address": "0x49e5a8"
+      },
+      {
+        "name": "RedLEDClick",
+        "address": "0x49ea44"
+      },
+      {
+        "name": "GreenLEDClick",
+        "address": "0x49eab8"
+      },
+      {
+        "name": "YellowLEDClick",
+        "address": "0x49eb2c"
+      },
+      {
+        "name": "BlueLEDClick",
+        "address": "0x49eba0"
+      },
+      {
+        "name": "MenuSaveAsClick",
+        "address": "0x49a16c"
+      },
+      {
+        "name": "FormClose",
+        "address": "0x49c898"
+      },
+      {
+        "name": "MenuEditClick",
+        "address": "0x49ed18"
+      },
+      {
+        "name": "PopWireColorClick",
+        "address": "0x49eda8"
+      },
+      {
+        "name": "FormKeyDown",
+        "address": "0x49f394"
+      },
+      {
+        "name": "SpeedPrintClick",
+        "address": "0x49f5dc"
+      },
+      {
+        "name": "MenuPrintSetupClick",
+        "address": "0x49f604"
+      },
+      {
+        "name": "MenuPrintPreviewClick",
+        "address": "0x49f610"
+      },
+      {
+        "name": "TagStyleClick",
+        "address": "0x49e204"
+      },
+      {
+        "name": "PopNameClick",
+        "address": "0x49f638"
+      },
+      {
+        "name": "PopTextStyleClick",
+        "address": "0x49f7bc"
+      },
+      {
+        "name": "PopTextLeftClick",
+        "address": "0x49f870"
+      },
+      {
+        "name": "PopTextRightClick",
+        "address": "0x49f8d8"
+      },
+      {
+        "name": "PopTextTopClick",
+        "address": "0x49f940"
+      },
+      {
+        "name": "PopTextBottomClick",
+        "address": "0x49f9a8"
+      },
+      {
+        "name": "DevicePopupMenuPopup",
+        "address": "0x49fa30"
+      },
+      {
+        "name": "PopHistoryClick",
+        "address": "0x49fafc"
+      },
+      {
+        "name": "SpeedProbeWindowClick",
+        "address": "0x49fba0"
+      },
+      {
+        "name": "SpeedPauseClick",
+        "address": "0x49dc20"
+      },
+      {
+        "name": "MenuToolsClick",
+        "address": "0x49fe2c"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x49ba58"
+      },
+      {
+        "name": "MenuHelpTopicsClick",
+        "address": "0x49fedc"
+      },
+      {
+        "name": "PopPulseInputClick",
+        "address": "0x49fb60"
+      },
+      {
+        "name": "PopEditMemoryClick",
+        "address": "0x49d790"
+      },
+      {
+        "name": "PopGateInputsClick",
+        "address": "0x49ff5c"
+      },
+      {
+        "name": "Pop2InputsClick",
+        "address": "0x49fff8"
+      },
+      {
+        "name": "Pop3InputsClick",
+        "address": "0x4a0168"
+      },
+      {
+        "name": "Pop4InputsClick",
+        "address": "0x4a02d8"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x49ba2c"
+      },
+      {
+        "name": "MenuCutClick",
+        "address": "0x49d4f8"
+      },
+      {
+        "name": "MenuCopyClick",
+        "address": "0x49d550"
+      },
+      {
+        "name": "MenuPasteClick",
+        "address": "0x49d5a8"
+      },
+      {
+        "name": "MainPopupMenuPopup",
+        "address": "0x49fa10"
+      },
+      {
+        "name": "SpeedPartsCentreClick",
+        "address": "0x4a07f8"
+      },
+      {
+        "name": "DrawingDragOver",
+        "address": "0x4a0448"
+      },
+      {
+        "name": "DrawingDragDrop",
+        "address": "0x4a0468"
+      },
+      {
+        "name": "EditSelectAllClick",
+        "address": "0x49d4cc"
+      },
+      {
+        "name": "MenuOptionsClick",
+        "address": "0x49fbe4"
+      },
+      {
+        "name": "OptionsAttachDatasheetClick",
+        "address": "0x49fc20"
+      },
+      {
+        "name": "PopViewDatasheetClick",
+        "address": "0x49e0ec"
+      },
+      {
+        "name": "FormResize",
+        "address": "0x49ced8"
+      },
+      {
+        "name": "MenuFileClick",
+        "address": "0x49cef4"
+      },
+      {
+        "name": "ReopenFileClick",
+        "address": "0x499d80"
+      },
+      {
+        "name": "PopNameMacroClick",
+        "address": "0x49d9e4"
+      },
+      {
+        "name": "OptionsNameMacroClick",
+        "address": "0x49fcfc"
+      },
+      {
+        "name": "PopCommonClick",
+        "address": "0x49e958"
+      },
+      {
+        "name": "PopCathodeClick",
+        "address": "0x49e9b4"
+      },
+      {
+        "name": "PopAnodeClick",
+        "address": "0x49e9fc"
+      },
+      {
+        "name": "FormShortCut",
+        "address": "0x49f2a4"
+      },
+      {
+        "name": "OptionsSetDatasheetPathClick",
+        "address": "0x49fda8"
+      },
+      {
+        "name": "PopupStepPopup",
+        "address": "0x49fea0"
+      },
+      {
+        "name": "PopHalfCycleClick",
+        "address": "0x49fecc"
+      },
+      {
+        "name": "PopFullCycleClick",
+        "address": "0x49fed4"
+      },
+      {
+        "name": "HertzFiftyClick",
+        "address": "0x49e4a8"
+      },
+      {
+        "name": "CustomColorClick",
+        "address": "0x49ec88"
+      },
+      {
+        "name": "WhiteLEDClick",
+        "address": "0x49ec14"
+      },
+      {
+        "name": "PopPropertiesClick",
+        "address": "0x49e714"
+      },
+      {
+        "name": "PopEditMemoClick",
+        "address": "0x49d7e0"
+      },
+      {
+        "name": "HertzHundredClick",
+        "address": "0x49e4bc"
+      }
+    ]
+  },
+  "TAnalyserForm": {
+    "className": "TAnalyserForm",
+    "vmt_address": "0x4a088c",
+    "parent_vmt": "0x4416fc",
+    "methods_count": 15,
+    "published_methods": [
+      {
+        "name": "FormCreate",
+        "address": "0x4a0cd4"
+      },
+      {
+        "name": "FormDestroy",
+        "address": "0x4a0d38"
+      },
+      {
+        "name": "PaintPaint",
+        "address": "0x4a148c"
+      },
+      {
+        "name": "RangeClick",
+        "address": "0x4a17f4"
+      },
+      {
+        "name": "FormShow",
+        "address": "0x4a0d44"
+      },
+      {
+        "name": "SpeedRunClick",
+        "address": "0x4a1884"
+      },
+      {
+        "name": "SpeedStopClick",
+        "address": "0x4a18b8"
+      },
+      {
+        "name": "SpeedPauseClick",
+        "address": "0x4a18e0"
+      },
+      {
+        "name": "SpeedStepClick",
+        "address": "0x4a1900"
+      },
+      {
+        "name": "FormResize",
+        "address": "0x4a0df4"
+      },
+      {
+        "name": "Close1Click",
+        "address": "0x4a1910"
+      },
+      {
+        "name": "SpeedDisplayClick",
+        "address": "0x4a1918"
+      },
+      {
+        "name": "MenuOptionsClick",
+        "address": "0x4a193c"
+      },
+      {
+        "name": "MenuHighlightClick",
+        "address": "0x4a1968"
+      },
+      {
+        "name": "HelpTopicsClick",
+        "address": "0x4a198c"
+      }
+    ]
+  }
+}
